@@ -24,8 +24,9 @@ Shift resources toward 1–3 ranked priority muscles for a block, without blowin
    - Everything else: 4–8 sets/week (maintenance needs far less volume than building).
    - Add sets gradually: about +2–4 sets/week per priority muscle per week of the block, not all at once.
 4. **Pick exercises** with the most stretch under tension for that muscle (`references/exercise-tiers.md`), e.g. hamstrings: seated leg curl + RDL; calves: standing raises with lengthened partials; side delts: cable lateral raises plus presses counted partly.
-5. **Block length:** 6–8 weeks by default (little direct evidence; say so if asked), then reassess and rotate priorities or return to balanced volume.
-6. **Hand off** to `programme-design` to rebuild the routines, or edit the existing Hevy routines on confirmation.
+5. **Shoulders specifically:** follow the shoulder plan in `references/workout-templates.md` (3–4×/week, one heavy press, double-progression isolation, both muscle lengths).
+6. **Block length:** 6–8 weeks by default (little direct evidence; say so if asked), then reassess and rotate priorities or return to balanced volume.
+7. **Hand off** to `programme-design` to rebuild the routines, or edit the existing Hevy routines on confirmation.
 
 ## Watch-outs
 

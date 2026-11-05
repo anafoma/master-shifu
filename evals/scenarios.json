@@ -68,8 +68,8 @@
       "prompt": "Should I only do lengthened partials? I've been lifting for 5 years.",
       "skill": "master-shifu",
       "expect": [
-        "Notes Nippard's own 2025 study found no clear extra benefit over full ROM in trained lifters",
-        "Recommends full ROM with a deep stretch as default; partials optional, most useful for calves",
+        "Notes Nippard's own study found no clear extra benefit over full ROM in trained lifters, and the 2026 Ethier study found no difference from stretch-biased tension in several muscles",
+        "Recommends full ROM with tension at the bottom as default; stretch-focused choices mainly for calves, hamstrings, quads, triceps",
         "Distinguishes research from Nippard's preference"
       ]
     },
@@ -119,6 +119,45 @@
         "Uses standing straight-knee raises with lengthened partials",
         "Takes the time from maintenance muscles rather than lengthening sessions",
         "Adds volume gradually"
+      ]
+    },
+    {
+      "id": "db-vs-cable-laterals",
+      "prompt": "My gym has no free cable. Are dumbbell lateral raises much worse than cable ones?",
+      "skill": "exercise-swaps",
+      "expect": [
+        "Says growth was similar in a 2025 study when ROM and effort are matched",
+        "Gives the scoop cue / keep traps out",
+        "Does not push the user to find a cable"
+      ]
+    },
+    {
+      "id": "hip-thrust-vs-squat",
+      "prompt": "Should I do hip thrusts or squats for glutes?",
+      "skill": "exercise-swaps",
+      "expect": [
+        "Similar glute growth in research; squats also build quads",
+        "Notes EMG and feel don't predict growth",
+        "Choice can be preference and goals; both fine"
+      ]
+    },
+    {
+      "id": "shoulder-specialisation",
+      "prompt": "I want bigger shoulders, set me up for 6 weeks.",
+      "skill": "specialisation",
+      "expect": [
+        "3-4 shoulder sessions per week, ~6-8 hard sets each",
+        "One heavy vertical press with linear progression",
+        "Lateral raises with double progression; mentions trap-free cue"
+      ]
+    },
+    {
+      "id": "source-request",
+      "prompt": "Where did Nippard talk about the stretch study? I want to watch it.",
+      "skill": "master-shifu",
+      "expect": [
+        "Points to the Feb 2026 podcast with Jeremy Ethier with a link",
+        "Briefly states the takeaway without long quotes"
       ]
     }
   ]

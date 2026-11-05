@@ -27,6 +27,12 @@ All knowledge files are paraphrased summaries with links; no transcripts or book
 - The Only 25 Exercises You Ever Need (Jan 2026): [summary](https://rosetta.to/u/jeffnippard/the-only-25-exercises-you-ever-need)
 - 2026 videos (shoulder training, muscle memory, weight-loss rate, incline angle, strangest exercises): [index](https://rosetta.to/person/jeff-nippard/2026)
 
+- 1-year experiment and routines (2025): [365 days](https://rosetta.to/u/jeffnippard/how-much-muscle-did-i-gain-in-365-days-scientific-experiment), [upper](https://boxlifemagazine.com/nippard-1-year-transformation/), [legs](https://rosetta.to/u/jeffnippard/the-leg-workout-i-followed-for-my-1-year-transformation)
+- How I Blew Up My Shoulders (Dec 2025): [summary](https://rosetta.to/u/jeffnippard/how-i-blew-up-my-shoulders)
+- Warm-up science: [summary](https://rosetta.to/u/jeffnippard/warm-up-and-mobility-science-explained-7-studies)
+- Podcast, The Stretch with Jeremy Ethier (Feb 2026): [episode](https://pocketcasts.com/podcast/the-jeff-nippard-podcast/bcafed40-0975-0132-a5de-5f4c86fd3263/we-need-to-talk-about-the-stretch-jeremy-ethiers-new-study/976cfce7-2de9-4595-b3e2-326b8ab2f42c), [summary](https://podscan.fm/podcasts/the-jeff-nippard-podcast)
+- Full dated index: [[video-index]]
+
 ## Studies
 
 - [Pelland et al.: weekly volume and frequency](https://sportrxiv.org/index.php/server/preprint/view/460/version/587)
@@ -40,3 +46,9 @@ All knowledge files are paraphrased summaries with links; no transcripts or book
 - [Morton et al. 2018: protein](https://pubmed.ncbi.nlm.nih.gov/28698222/)
 - [Schoenfeld & Aragon 2018: protein per meal](https://pubmed.ncbi.nlm.nih.gov/29497353/)
 - [Ma et al. 2025: jump training](https://jssm.org/24-2-236.p_d_f)
+- [Larsen, Wolf, Schoenfeld et al. 2025: dumbbell vs cable lateral raises](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1611468/full)
+- [Ethier et al. 2026 preprint: lengthened vs shortened resistance profiles](https://sportrxiv.org/index.php/server/preprint/view/660)
+- [2026 systematic review: long vs short muscle-length training](https://www.sciopen.com/local/article_pdf/10.1016/j.smhs.2025.03.001.pdf)
+- [Plotkin et al. 2023: squat vs hip thrust](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1279170/full)
+- [Maeo et al. 2023: overhead vs pressdown triceps](https://pubmed.ncbi.nlm.nih.gov/35819335/)
+- [Standing vs seated calf raises](https://pubmed.ncbi.nlm.nih.gov/38156065/)

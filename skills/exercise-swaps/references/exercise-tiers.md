@@ -52,10 +52,25 @@ Sources: [quads](https://barbend.com/news/best-quad-exercises-ranking-best-to-wo
 
 A full-physique shortlist, in his ranked order where known: squat (#1), pull-up, incline bench, RDL, chest-supported T-bar row, cable lateral raise, preacher curl, overhead cable triceps extension, leg extension, seated leg curl, bench press, walking lunge, overhead press, deadlift, Bayesian curl, glute drive, weighted dips, reverse pec deck, pec deck, cable crunch, neck curls/extensions, wrist curls/extensions, standing calf raise, DB shrugs, machine lat pullover. Use it as a default menu when equipment is normal and the user has no strong preferences. [Source](https://rosetta.to/u/jeffnippard/the-only-25-exercises-you-ever-need).
 
-## Technique notes from 2026 videos
+## Head-to-head studies worth knowing
+
+- **Squat vs barbell hip thrust (9 weeks, untrained):** similar glute growth; squats also grew quads and adductors more; hip thrusts showed far higher glute EMG, which did not predict growth ([Plotkin et al. 2023](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1279170/full)). Hip thrusts are a good glute exercise but not uniquely better; "I feel it more" ≠ more growth.
+- **Dumbbell vs cable lateral raise:** same side delt growth when ROM and effort are matched (see [[training-science]]). Use whichever is available or feels better.
+- **Seated vs lying leg curl:** seated grew more ([Maeo 2021](https://pubmed.ncbi.nlm.nih.gov/33009197/)). In his own 1-year leg routine he still used lying curls, with hips pressed into the pad and partials at the end. Both are good; seated is the default.
+- **Overhead extension vs pressdown:** overhead grew the triceps more ([Maeo 2023](https://pubmed.ncbi.nlm.nih.gov/35819335/)). He calls it likely the best triceps exercise for all three heads.
+- **Standing vs seated calf raise:** standing (straight knee) grew the gastrocnemius more ([study](https://pubmed.ncbi.nlm.nih.gov/38156065/)).
+
+## Technique notes from 2025–2026 videos
 
 - **Incline angle:** EMG testing found upper chest activation was similar from about 15° to 45°; very steep angles did worse. Pick the angle that feels best and progress it.
 - **Shoulder press:** side delt activation was high, sometimes higher than front delt. Presses count partly toward side delts.
+- **Side delts:** "scoop sand out to the side" cue keeps the traps from shrugging the weight up. Cover in-between planes with Y-raises (cable crossbody or incline dumbbell) and a 45° cable rear-delt pull.
+- **Leg extension:** seat all the way back, pull on the handles to keep hips down, 3-s lowering if knees are sensitive.
+- **Hip abduction:** keep hips extended (sit tall) rather than leaning forward; push close to failure with real load.
+- **RDL:** hips straight back, slight knee bend, bar close over mid-foot; stop around the knee with a neutral spine rather than reaching lower.
+- **Pendulum/hack squat:** most common mistake is cutting depth; film from the side.
+- **Incline press:** slightly narrow grip, brief touch-pause on the chest, no bounce.
+- **Pull-ups:** drive the chest to the bar, elbows down and in, brief dead-hang pause to kill swing.
 
 ## Using tiers well
 

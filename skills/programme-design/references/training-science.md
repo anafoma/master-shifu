@@ -24,11 +24,15 @@ Weekly volume and effort are the biggest levers for growth. Frequency, rest and 
 - His rule of thumb: save failure for **isolation exercises**, on the **last set of the last exercise** for a muscle.
 - Sources: [How hard should you train](https://fitnessvolt.com/jeff-nippard-how-hard-should-you-train/), [When should you train to failure](https://rosetta.to/u/jeffnippard/when-should-you-train-to-failure-showing-you-our-new-home-in-canada).
 
-## Lengthened partials (2023–2025)
+## The stretch: where the evidence stands (2023–2026)
 
-- Nov 2023: he called long-length partials one of the best-supported intensity techniques; Dr Milo Wolf estimated perhaps 5–10% more growth than full ROM ([BarBend](https://barbend.com/news/long-length-partial-reps/)).
-- Ways to use them: after reaching failure on full reps, keep going with partials in the stretch; or "integrated partials" mixed through the set. Don't use them on exercises with little tension at the stretch (e.g. dumbbell flyes are a good fit, cable flyes less needed).
-- Sep 2024 onward: his own study with Wolf, Schoenfeld and others in experienced lifters found **no clear extra benefit** over full ROM ([BarBend](https://barbend.com/?p=289386), [paper](https://peerj.com/articles/18904)). He still values the stretch but no longer treats partials as essential.
+- **Nov 2023:** Nippard called long-length partials one of the best-supported intensity techniques; Dr Milo Wolf estimated perhaps 5–10% more growth than full ROM ([BarBend](https://barbend.com/news/long-length-partial-reps/)). Ways to use them: keep going with partials in the stretch after full-ROM failure, or mix "integrated partials" through the set.
+- **Sep 2024 / 2025:** his own study with Wolf, Schoenfeld and others in experienced lifters found **no clear extra benefit** of lengthened partials over full ROM ([BarBend](https://barbend.com/?p=289386), [paper](https://peerj.com/articles/18904)).
+- **Jul 2025:** dumbbell and cable lateral raises (ROM matched, trained lifters, 8 weeks, sets to failure) grew the side delts by the same amount, about 3–5% ([Larsen, Wolf, Schoenfeld et al. 2025](https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1611468/full)). The cable's harder-in-the-stretch resistance profile made no detectable difference.
+- **Feb 2026:** Jeremy Ethier's co-authored study made one side of the body harder in the stretch and the other harder in the squeeze, across four muscles. Growth was **no different**. Nippard's read in their podcast: the muscles with strong evidence for stretch-focused training are **calves, hamstrings and quads**, and to some extent **biceps** (and overhead work for triceps); for the rest, a full ROM with some tension in the stretch is enough ([podcast](https://pocketcasts.com/podcast/the-jeff-nippard-podcast/bcafed40-0975-0132-a5de-5f4c86fd3263/we-need-to-talk-about-the-stretch-jeremy-ethiers-new-study/976cfce7-2de9-4595-b3e2-326b8ab2f42c), [summary](https://podscan.fm/podcasts/the-jeff-nippard-podcast), [preprint](https://sportrxiv.org/index.php/server/preprint/view/660)).
+- **2026 review:** a systematic review of 8 studies (120 participants) concluded long-muscle-length training *may* beat short-length training, including for muscle lengthening, but the evidence base is small ([Sports Med Health Sci 2026](https://www.sciopen.com/local/article_pdf/10.1016/j.smhs.2025.03.001.pdf)).
+
+**Shifu's rule:** always train through a full ROM with tension at the bottom. Choose stretch-biased exercises deliberately for calves (straight-knee raises, bottom-half partials), hamstrings (seated curls), quads (deep squats, leg extension with seat back) and triceps (overhead extensions). Elsewhere, choose the exercise the user can feel, progress and recover from; don't swap a good exercise just because it's "squeeze-biased".
 
 ## Low volume while cutting (100-day experiment, Oct 2025)
 
@@ -40,6 +44,10 @@ Weekly volume and effort are the biggest levers for growth. Frequency, rest and 
 ## Coming back after a break (Jan 2026)
 
 Muscle memory makes regaining muscle faster. Return in phases: lighter loads, less volume, controlled reps, enough protein; build back over a few weeks rather than resuming old numbers. [Source](https://rosetta.to/person/jeff-nippard/2026).
+
+## Warm-up
+
+Raising body temperature is the most important part. Default: about 5–10 min of light cardio, a few dynamic movements for the joints being trained (no long static stretching before lifting), then 2–4 ramp-up sets on the first compound (e.g. ~50% × 5, ~70% × 3, ~85% × 1–2) before working sets. Later exercises for the same muscle need one light feeler set at most. Foam rolling is optional. [Source](https://rosetta.to/u/jeffnippard/warm-up-and-mobility-science-explained-7-studies).
 
 ## Planning maths
 

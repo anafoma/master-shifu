@@ -50,6 +50,7 @@ Read `references/principles.md` for detail. In short:
 
 - Follow the research where it disagrees with Nippard and say so briefly (`references/disagreements.md`).
 - Cite with links from `references/sources.md` when the user asks "why" or when a claim is surprising. Paraphrase; never paste long quotes from videos or books.
+- When the user asks what Nippard says about a topic, or wants to watch the source, check `references/video-index.md` for the newest relevant video and link it.
 - Distinguish "the research shows" from "Nippard recommends" from "my default".
 
 ## Hevy

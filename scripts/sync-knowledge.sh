@@ -5,10 +5,10 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 declare -A MAP=(
-  [master-shifu]="principles disagreements sources hevy"
+  [master-shifu]="principles disagreements sources hevy video-index"
   [intake]="intake hevy"
-  [programme-design]="principles exercise-tiers training-science goals-strength-athletic intake hevy"
-  [specialisation]="training-science exercise-tiers"
+  [programme-design]="principles exercise-tiers training-science goals-strength-athletic intake hevy workout-templates"
+  [specialisation]="training-science exercise-tiers workout-templates"
   [progression]="training-science principles hevy"
   [exercise-swaps]="exercise-tiers principles hevy"
   [nutrition]="nutrition training-science"

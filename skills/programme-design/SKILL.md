@@ -26,7 +26,9 @@ Build a programme from a confirmed profile. If no profile exists, run `intake` f
 3. **Fit the session budget.** Working sets per session must fit session length (≈ 2.5–3 min per set + 10 min warm-up). If the total doesn't fit, cut sets from non-priority muscles first.
 4. **Pick exercises** from `references/exercise-tiers.md`:
    - Prefer S/A tier, matched to equipment and the user's preferences and existing Hevy exercises (continuity helps progression tracking).
-   - Use the "only 25 exercises" list as the default menu.
+   - Use the "only 25 exercises" list as the default menu, and Nippard's own one-year upper and leg sessions (`references/workout-templates.md`) as proven starting templates.
+   - Choose stretch-biased options deliberately for calves, hamstrings, quads and triceps; elsewhere prefer what the user feels and progresses on (`references/training-science.md`, "The stretch").
+   - Program a warm-up: light cardio, then a ramp-up pyramid before the first heavy lift.
    - At least one isolation exercise for biceps, side delts, hamstrings and calves.
    - Never include an exercise the user said hurts or wants to avoid.
 5. **Order within a session:** power work first (if any), then the top-priority muscle, heavy compounds, then isolation; failure sets last.
