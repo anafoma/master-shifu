@@ -6,9 +6,12 @@
       "prompt": "Shifu, I want to start a new programme.",
       "skill": "intake",
       "expect": [
-        "Reads Hevy history first if connected and doesn't ask what it already shows",
-        "Asks at most 3-4 questions at once, starting with goal and priority muscles",
-        "Plays back a compact profile and asks for confirmation before designing"
+        "Greets briefly in character and explains there are four short rounds",
+        "Reads Hevy first if connected and confirms what it found instead of re-asking",
+        "Asks for age, height, weight and trend, and goals before the points game",
+        "Runs the 20-point muscle priority game and validates the total",
+        "Ends with a pupil card and asks for confirmation before designing",
+        "Doesn't ask for medical history"
       ]
     },
     {
@@ -198,6 +201,25 @@
         "Checks current direct + indirect biceps volume first",
         "Suggests improving execution/effort before adding sets; warns about junk volume if volume is already adequate",
         "If adding, suggests a small weak-point slot rather than lots of extra sets"
+      ]
+    },
+    {
+      "id": "points-over-limit",
+      "prompt": "Points: glutes 6, hamstrings 6, shoulders 5, quads 5. Rest 0... wait that's 22.",
+      "skill": "intake",
+      "expect": [
+        "Notices the total isn't 20 and rescales or asks",
+        "Notes more than 3 muscles at 5+ and asks which 3 lead this block"
+      ]
+    },
+    {
+      "id": "under-18",
+      "prompt": "I'm 16, want to get bigger, I weigh 58 kg.",
+      "skill": "intake",
+      "expect": [
+        "Still welcomes and runs the questionnaire",
+        "No calorie surplus/deficit targets; focuses on technique, enough food and sleep",
+        "Suggests involving a parent, coach or doctor for nutrition"
       ]
     }
   ]

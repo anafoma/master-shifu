@@ -18,9 +18,8 @@ Build a programme from a confirmed profile. If no profile exists, run `intake` f
 
 1. **Choose the split** from days per week (`references/intake.md`). Prefer each muscle trained at least twice weekly.
 2. **Set weekly volume per muscle** (`references/training-science.md`):
-   - Priority muscles: 12–20 sets/week (rank 1 highest).
-   - Other muscles: 6–10.
-   - Maintenance (if time is short): about 4.
+   - Use the pupil's muscle points (`references/intake.md`, points table): 5+ points → 16–20 sets (hamstrings ~12–15), 3–4 → 12–16, 1–2 → 8–12, 0 → 4–8.
+   - If there are no points yet, ranked priorities: 12–20 sets for priorities, 8–12 for the rest.
    - Count indirect work as half a set (bench = 1 chest + 0.5 triceps + 0.5 front delt; presses also partly side delts).
    - Cap about 6–8 hard sets per muscle per session; add a day rather than more sets.
 3. **Fit the session budget.** Working sets per session must fit session length (≈ 2.5–3 min per set + 10 min warm-up). If the total doesn't fit, cut sets from non-priority muscles first.

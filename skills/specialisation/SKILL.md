@@ -16,7 +16,7 @@ Shift resources toward 1–3 ranked priority muscles for a block, without blowin
 
 ## Steps
 
-1. **Confirm the ranking** (max 3 priorities; more than 3 means nothing is really prioritised).
+1. **Confirm the ranking** (max 3 priorities; more than 3 means nothing is really prioritised). If the pupil card has muscle points, start from those and offer to re-share the 20 points.
 2. **Check current volume** from Hevy: count hard sets per muscle over the last 2 weeks (normal + failure sets; skip warmups; indirect sets count 0.5). See `references/training-science.md`.
 3. **Reallocate:**
    - Priority 1: 16–20 sets/week (**hamstrings: cap ~12–15**, they recover poorly from more), trained 3×/week if schedule allows, first exercise of the session.
