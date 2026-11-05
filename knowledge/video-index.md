@@ -36,7 +36,7 @@ One line per item with the practical takeaway, newest first. Use it to point the
 | May 27 | The Upper Body Workout I Followed For My 1 Year Transformation | Upper template | [[workout-templates]] |
 | May 4 | How Much Muscle Did I Gain In 365 Days? | +2.7 lb lean mass after 15 years; consistency works | [[workout-templates]] |
 | Mar 17 | The Best & Worst Glute Exercises | Stretch-loaded glute work ranks high | [[exercise-tiers]] |
-| Feb 15 | How To Get Jacked For $10/Day | Protein, calories, sleep, training > extras | [[nutrition]] |
+| Feb 15 | How To Get Jacked For $10/Day | Protein, calories, sleep, training > extras; lentils cheapest protein; coffee ≈ pre-workout | [[nutrition]] |
 
 ## 2024
 
@@ -58,10 +58,21 @@ One line per item with the practical takeaway, newest first. Use it to point the
 
 | Date | Title | Takeaway | In |
 | --- | --- | --- | --- |
+| Jun 11 | How To Increase Your Metabolism | Muscle and daily movement matter; avoid very-low-calorie diets | [[nutrition]] |
+| Mar 27 | The Worst Nutrition Mistakes Every Lifter Makes | Don't bulk aggressively, overrate supplements or overeat protein | [[nutrition]] |
+| Jan 23 | How To Get Lean & STAY Lean Forever | Diet slowly, build habits, go straight to maintenance after a cut | [[nutrition]] |
 | Dec 16 | OVERRATED: The Worst Fitness Advice Ever (with Dr Mike Israetel) | Test popular claims against evidence | — |
 | Nov 16 | The World's Smartest Muscle Building Technique | Long-length partials (later tempered) | [[training-science]] |
 | Oct 29 | How To Train For Pure Muscle Growth | The five principles | [[principles]] |
 | Jul–Aug | The Perfect Push / Pull / Leg Day | Science-based PPL sessions | [[workout-templates]] |
+
+## Older but still core
+
+| Date | Title | Takeaway | In |
+| --- | --- | --- | --- |
+| 2022 | How To Get Lean Without Tracking Macros | Four non-tracking fat-loss tools | [[nutrition]] |
+| Apr 2022 | The Smartest Way To Use Protein | Daily total > timing; 1.6–2.2 g/kg | [[nutrition]] |
+| Feb 2021 | The Smartest Way To Get Lean (expert panel) | Deficit, high protein, lifting, limited cardio | [[nutrition]] |
 
 ## Not yet summarised (good next additions)
 

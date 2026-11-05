@@ -31,6 +31,7 @@ All knowledge files are paraphrased summaries with links; no transcripts or book
 - How I Blew Up My Shoulders (Dec 2025): [summary](https://rosetta.to/u/jeffnippard/how-i-blew-up-my-shoulders)
 - Warm-up science: [summary](https://rosetta.to/u/jeffnippard/warm-up-and-mobility-science-explained-7-studies)
 - Podcast, The Stretch with Jeremy Ethier (Feb 2026): [episode](https://pocketcasts.com/podcast/the-jeff-nippard-podcast/bcafed40-0975-0132-a5de-5f4c86fd3263/we-need-to-talk-about-the-stretch-jeremy-ethiers-new-study/976cfce7-2de9-4595-b3e2-326b8ab2f42c), [summary](https://podscan.fm/podcasts/the-jeff-nippard-podcast)
+- Nutrition videos: [Get lean & stay lean](https://fitnessvolt.com/jeff-nippard-lean-forever-plan/), [Lean without tracking](https://rosetta.to/u/jeffnippard/how-to-get-lean-without-tracking-macros-or-dieting-science-explained), [Smartest way to get lean](https://www.boxrox.com/the-smartest-way-to-get-lean-5-insights-from-nutrition-experts/), [$10/day](https://rosetta.to/u/jeffnippard/how-to-get-jacked-for-10-day-healthy-meals-on-a-budget), [2026 cut to 9%](https://generationiron.com/jeff-nippard-diet-workout-9-body-fat/), [nutrition feed](https://rosetta.to/u/jeffnippard/topic/nutrition)
 - Full dated index: [[video-index]]
 
 ## Studies

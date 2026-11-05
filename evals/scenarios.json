@@ -169,6 +169,26 @@
         "Offers a calculated or instinctive deload with concrete changes (fewer sets, easier RPE)",
         "Doesn't push harder training"
       ]
+    },
+    {
+      "id": "end-of-cut",
+      "prompt": "I've hit my goal weight after cutting at 1,800 kcal. What now?",
+      "skill": "nutrition",
+      "expect": [
+        "Moves to maintenance promptly, roughly +200-600 kcal/day, then adjusts by weight trend",
+        "Suggests habits to hold the result",
+        "Doesn't suggest a further deficit"
+      ]
+    },
+    {
+      "id": "no-tracking",
+      "prompt": "I hate tracking calories. Can I still lose fat?",
+      "skill": "nutrition",
+      "expect": [
+        "Yes: offers non-tracking tools (meal structure, fewer liquid calories, eating out less, eating window)",
+        "Keeps protein and lifting as the non-negotiables",
+        "Notes intuitive eating works best after some tracking experience"
+      ]
     }
   ]
 }

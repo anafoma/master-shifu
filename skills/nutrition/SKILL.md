@@ -21,9 +21,11 @@ Give practical targets from `references/nutrition.md`. Keep it simple: protein a
    - Bulk: aim for a weight gain rate of 1–2%/month (beginners) or 0.5–1%/month (intermediate+), roughly a 5–10% surplus for a lean bulk.
    - Cut: about 0.5–0.7% of bodyweight per week, roughly a 500 kcal/day deficit.
    - Maintenance/recomp: hold weight within ~1%; prioritise protein and training.
+   - Estimate maintenance first (lb × 14–18, or 2 weeks of tracking).
    - Prefer adjusting by trend: check the 2-week average weight change and move intake by ~100–200 kcal/day if off-target.
 4. **Adjust training to the phase:** in a cut, keep effort high and offer lower volume (see `references/training-science.md`); expect strength to hold rather than climb.
-5. **Supplements:** creatine monohydrate (strongest evidence), caffeine for performance; protein powder is just convenient food.
+5. **Make it stick:** offer 1–2 habit tools that fit the user (non-tracking tools, meal structure, evening plan) from `references/nutrition.md`, and after a cut, plan the move back to maintenance.
+6. **Supplements:** creatine monohydrate (strongest evidence), caffeine for performance; protein powder is just convenient food.
 
 ## Hard limits
 
