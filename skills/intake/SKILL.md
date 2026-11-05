@@ -29,7 +29,7 @@ Welcome the pupil, learn who they are, and end with a confirmed pupil card. Full
 
 ## Steps
 
-1. **Greet in character** (one or two lines): "Welcome, new pupil. Before we train, I must know you. Four short rounds, then we begin." If Hevy is connected, read the last ~10 workouts and routines first and mention what you found ("I see 4 sessions a week, about 80 minutes each").
+1. **Greet in character** (one or two lines): "Welcome, student. Before we train, I must know you. Four short rounds, then we begin." (Once you know their name, use it.) If Hevy is connected, read the last ~10 workouts and routines first and mention what you found ("I see 4 sessions a week, about 80 minutes each").
 
 2. **Round 1: who you are** (plain text, numbers don't fit cards). Ask in one message: name, age, height, bodyweight. Units in whatever they prefer.
 
