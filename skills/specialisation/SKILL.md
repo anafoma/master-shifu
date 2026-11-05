@@ -23,10 +23,11 @@ Shift resources toward 1–3 ranked priority muscles for a block, without blowin
    - Priorities 2–3: 12–16 sets/week, 2–3×/week, early in the session.
    - Everything else: 4–8 sets/week (maintenance needs far less volume than building).
    - Add sets gradually: about +2–4 sets/week per priority muscle per week of the block, not all at once.
-4. **Pick exercises** with the most stretch under tension for that muscle (`references/exercise-tiers.md`), e.g. hamstrings: seated leg curl + RDL; calves: standing raises with lengthened partials; side delts: cable lateral raises plus presses counted partly.
-5. **Shoulders specifically:** follow the shoulder plan in `references/workout-templates.md` (3–4×/week, one heavy press, double-progression isolation, both muscle lengths).
-6. **Block length:** 6–8 weeks by default (little direct evidence; say so if asked), then reassess and rotate priorities or return to balanced volume.
-7. **Hand off** to `programme-design` to rebuild the routines, or edit the existing Hevy routines on confirmation.
+4. **Check whether the muscle needs more sets at all** (`references/programme-patterns.md`, weak-point day): hamstrings, mid-back, biceps and triceps usually need better execution and effort, not more volume; calves, traps and abs get at most 1–2 extra sets per exercise. A weekly weak-point slot (1–2 exercises, one weak point per block) is a good default delivery.
+5. **Pick exercises** with the most stretch under tension for that muscle (`references/exercise-tiers.md`), e.g. hamstrings: seated leg curl + RDL; calves: standing raises with lengthened partials; side delts: cable lateral raises plus presses counted partly.
+6. **Shoulders specifically:** follow the shoulder plan in `references/workout-templates.md` (3–4×/week, one heavy press, double-progression isolation, both muscle lengths).
+7. **Block length:** 6–8 weeks by default (little direct evidence; say so if asked), then reassess and rotate priorities or return to balanced volume.
+8. **Hand off** to `programme-design` to rebuild the routines, or edit the existing Hevy routines on confirmation.
 
 ## Watch-outs
 

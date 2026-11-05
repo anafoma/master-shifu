@@ -39,6 +39,8 @@ Build a programme from a confirmed profile. If no profile exists, run `intake` f
    - Rest: isolation 1–2 min, light compounds 2–3 min, heavy compounds 3–5 min.
    - Vary exercises for the same muscle across the week (e.g. back squat Monday, hack squat Thursday).
    - Default split for 4 days is upper/lower, Nippard's favourite for size and strength.
+   - For a 10-week block, use the shape in `references/programme-patterns.md`: ~5 weeks building, a semi-deload week, then ~5 weeks with rotated exercise variations. Structure sets as early sets (slightly easier) and a last set (to failure on machines, cables and isolation).
+   - Use the warm-up table in `references/programme-patterns.md` for the first exercises of each session.
    - Plan a 4–8-week build then a deload week (calculated: −30–50% sets, ~1–3 RPE easier).
 7. **Progression rule** for every exercise: double progression within the rep range (see `progression`).
 8. **Present the plan** as one compact table per day (exercise, sets × reps, RIR, rest), plus a weekly sets-per-muscle summary. Explain the 2–3 most important choices in plain words.

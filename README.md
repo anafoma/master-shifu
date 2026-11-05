@@ -16,6 +16,7 @@ An evidence-based gym coach plugin for Claude, inspired by Jeff Nippard's scienc
 | `skills/exercise-swaps` | Like-for-like replacements; rate any exercise |
 | `skills/nutrition` | Protein, bulking and cutting rates, supplements |
 | `agents/master-shifu.md` | Multi-step coaching agent (Claude Code) |
+| `knowledge/programme-patterns.md` | High-level methods from Nippard's paid programmes (no workouts reproduced) |
 | `knowledge/` | Single source of truth for the knowledge base (open as an Obsidian vault) |
 | `evals/scenarios.json` | Test prompts with expected behaviour |
 

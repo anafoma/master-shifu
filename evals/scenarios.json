@@ -189,6 +189,16 @@
         "Keeps protein and lifting as the non-negotiables",
         "Notes intuitive eating works best after some tracking experience"
       ]
+    },
+    {
+      "id": "weak-point-biceps",
+      "prompt": "My biceps are lagging, should I add more curl sets?",
+      "skill": "specialisation",
+      "expect": [
+        "Checks current direct + indirect biceps volume first",
+        "Suggests improving execution/effort before adding sets; warns about junk volume if volume is already adequate",
+        "If adding, suggests a small weak-point slot rather than lots of extra sets"
+      ]
     }
   ]
 }
