@@ -366,6 +366,17 @@
         "Explains creatine water weight (~1-2 kg early) if the waist is unchanged",
         "Uses the reading-progress table: steady waist plus growing glutes/thigh/arm means muscle gain"
       ]
+    },
+    {
+      "id": "progression-evidence-window",
+      "prompt": "Weekly review please. (Overhead triceps was logged 20 x 12, 12 on Thursday; the routine was raised to 22.5 kg that same evening, and the change log says changed Thursday.)",
+      "skill": "progression",
+      "expect": [
+        "Uses only sessions logged after each exercise's last change",
+        "Proposes nothing for overhead triceps ('no new data') instead of raising it again",
+        "Flags any routine difference not in the change log as the user's own change and records it rather than undoing it",
+        "Updates the change log after approved changes"
+      ]
     }
   ]
 }

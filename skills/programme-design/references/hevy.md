@@ -63,3 +63,4 @@ Check `get_user_preferences` → `is_pro` before building.
 - **Custom exercises: free accounts are limited to 7.** Use library templates whenever one fits; create a custom exercise only when the pupil asks for something the library lacks, and tell them it was added.
 - **Folders** are optional; don't create one if the pupil only needs a few routines.
 - A new or custom exercise starts with no history; old logs stay under the old exercise name. Mention this when swapping.
+- **Routines have no per-exercise "last changed" date** (only the routine's `updated_at`), so Hevy alone can't tell which exercise changed or why. Keep a change log outside Hevy (see the progression skill's evidence-window rule) and add a one-line "Last review: <date>" to the routine note when a review changes it.
