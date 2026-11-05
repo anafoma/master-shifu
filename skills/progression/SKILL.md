@@ -1,0 +1,41 @@
+---
+name: progression
+description: >
+  This skill should be used when the user asks "how did my workout go", "should I go up in
+  weight", "am I progressing", "I've plateaued", "I'm stuck on X", "do I need a deload",
+  "update my weights for next week", or wants a review of recent sessions. It reads Hevy
+  history, applies double progression, flags stalls, and proposes next-session targets or
+  deloads.
+metadata:
+  version: "0.1.0"
+---
+
+# Progression
+
+Decide the next targets from real data. Never guess logged numbers.
+
+## Steps
+
+1. **Fetch data** (`references/hevy.md`): the last 2–4 sessions of the relevant routine via `get_user_workouts`, and `get_user_exercise_history` for any exercise in question. Fetch the current routine with `get_user_routines`.
+2. **Apply double progression** per exercise, using the rep range in the routine (default 8–12 if none):
+   - All working sets hit the **top** of the range at the planned effort → increase load next session by the smallest jump available (≈ 2.5–5% or one plate/pin; for small isolation moves, one pin or 1–2.5 kg).
+   - Within the range → keep the load and aim for +1 rep on one or more sets.
+   - Below the bottom of the range → keep or reduce load by ~5–10%.
+3. **Check effort.** If sets marked `normal` repeatedly match the reps of `failure` sets, the early sets are likely at 0–1 RIR (fine for isolation, too hard for compounds). If reps barely drop across sets, effort may be too low.
+4. **Detect stalls:** same load and same or fewer reps for **3 consecutive sessions** on an exercise. Then work through, in order:
+   1. Technique and effort check (bottom rungs first, `references/principles.md`).
+   2. Recovery: sleep, stress, food. Ask if the user is dieting.
+   3. Change the rep range (e.g. 6–8 → 10–12) or swap to a similar-tier exercise (`exercise-swaps`).
+   4. If several lifts stall at once or joints ache: deload for one week at ~50% of sets, same loads at 3+ RIR.
+5. **Report** briefly: per exercise, last performance → next target, with one-line reasoning. Lead with wins.
+6. **Update Hevy on confirmation.** Change target weights/reps in the routine with `update_hevy_routine`, sending the full routine and changing only those values.
+
+## Example
+
+Hip thrust logged 100 kg × 12, 12, 12, 12 (rep range 8–12): top of range on every set → next session 102.5–105 kg, aim 10+ reps on the first set. If the user picks a specific weight ("make it 105"), use it.
+
+## Rules
+
+- A single bad session is noise; look at trends.
+- Counting progress: more reps, more load, or cleaner technique at the same load all count.
+- If the user is in a deficit, holding strength is success; don't push load jumps aggressively.
