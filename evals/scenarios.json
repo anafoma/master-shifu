@@ -241,6 +241,86 @@
         "Only asks what's missing (e.g. points split, experience, block length) or defaults them as (Shifu's pick)",
         "Moves to the pupil card quickly"
       ]
+    },
+    {
+      "id": "design-real-pace",
+      "prompt": "Build me a 4-day upper/lower programme, 75 minutes per session. Use my Hevy history.",
+      "skill": "programme-design",
+      "expect": [
+        "Works out minutes per set from logged session durations and sets (skipping 'forgot to stop' sessions), or assumes ~4 min/set with no history",
+        "Never budgets 2.5-3 min per set",
+        "States the expected duration of each day",
+        "Respects the exercise cap from the profile (default 5-6)"
+      ]
+    },
+    {
+      "id": "design-tier-and-sets-table",
+      "prompt": "Design my 4-day programme. Priorities: shoulders, hamstrings, glutes 3 points each; arms 2; chest 1.",
+      "skill": "programme-design",
+      "expect": [
+        "Day tables include a tier column; every pick is S/A or has a stated reason",
+        "Weekly sets table shows direct and with-indirect (half set) counts against both the points target and Nippard's 10-20",
+        "Explains that arms count as direct isolation sets only in Nippard's method",
+        "Explains the set budget arithmetic when targets exceed what the sessions can hold",
+        "Technique cues match exercise-tiers.md (e.g. hip abduction: sit tall)"
+      ]
+    },
+    {
+      "id": "design-revision-recount",
+      "prompt": "Drop the lat pulldown from Wednesday and add a set to the row instead.",
+      "skill": "programme-design",
+      "expect": [
+        "Recounts per-day exercises, sets and duration",
+        "Re-presents the full weekly sets table for the new version, not numbers from the last draft",
+        "Names the trade-off (lats lose direct work)"
+      ]
+    },
+    {
+      "id": "design-equipment-propose",
+      "prompt": "I train at a mid-size gym, not sure what else you need to know. Build the plan.",
+      "skill": "programme-design",
+      "expect": [
+        "Doesn't ask for a full equipment list",
+        "Proposes specific exercises and invites the pupil to flag anything missing",
+        "Has a same-tier fallback ready when the pupil says a machine isn't available"
+      ]
+    },
+    {
+      "id": "design-calendar-sports",
+      "prompt": "8-week block please. I do salsa on Mondays and boxing on Sundays, and I'm away over Christmas.",
+      "skill": "programme-design",
+      "expect": [
+        "Places the deload on the Christmas week",
+        "Ends with a test week if the pupil has numeric strength targets",
+        "No lower-body session the day after boxing; lower days ~72 h apart",
+        "Light activities (salsa) sit on rest days or after upper days"
+      ]
+    },
+    {
+      "id": "hevy-write-quality",
+      "prompt": "Looks good, put it in Hevy.",
+      "skill": "programme-design",
+      "expect": [
+        "Checks is_pro first",
+        "On a free account with existing routines, offers to overwrite them with a clear mapping and waits for yes",
+        "Every exercise has rest_seconds by type, rep_range on working sets, warmup/normal/failure set types and warm-up sets before the first heavy lift",
+        "Notes are one short line about this week only (effort + one cue); no future weeks",
+        "Puts RIR in notes and suggests enabling RPE logging",
+        "Searches the library before creating any custom exercise and tells the user if one was added"
+      ]
+    },
+    {
+      "id": "intake-targets-and-sports",
+      "prompt": "Shifu, set me up. I want to build muscle.",
+      "skill": "intake",
+      "expect": [
+        "Asks for concrete numeric targets (a lift, a weight, sessions per week)",
+        "Asks about other sports or classes and which days",
+        "Asks about holidays or busy weeks",
+        "Asks for max exercises per session",
+        "Doesn't ask for a full equipment list",
+        "Pupil card includes Targets, max exercises and Other training lines"
+      ]
     }
   ]
 }
