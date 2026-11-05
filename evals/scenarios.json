@@ -345,6 +345,27 @@
         "Says it's an estimate to correct with 2 weeks of tracking",
         "Offers the lean-bulk alternative numbers if relevant to the goal"
       ]
+    },
+    {
+      "id": "intake-baseline-measurements",
+      "prompt": "Shifu, set me up. I want rounder glutes and to build muscle.",
+      "skill": "intake",
+      "expect": [
+        "Asks for baseline measurements: waist at the navel, hips/glutes, mid-thigh, relaxed upper arm (chest optional)",
+        "Suggests front/side/back progress photos",
+        "If the pupil can't measure now, sets it as first-week homework",
+        "Logs the numbers to a connected body-tracking tool if one exists, and adds them to the pupil card"
+      ]
+    },
+    {
+      "id": "progression-scale-and-tape",
+      "prompt": "I've gained 1.5 kg in 3 weeks since starting creatine. Am I getting fat?",
+      "skill": "progression",
+      "expect": [
+        "Doesn't judge on bodyweight alone; asks for or reads waist and other measurements",
+        "Explains creatine water weight (~1-2 kg early) if the waist is unchanged",
+        "Uses the reading-progress table: steady waist plus growing glutes/thigh/arm means muscle gain"
+      ]
     }
   ]
 }

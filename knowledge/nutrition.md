@@ -44,6 +44,26 @@ Worked example (maintenance, 55.6 kg, ~1,950 kcal): protein ~105 g (420 kcal), f
 
 These macro defaults are Shifu's working rules built on the protein research above and common sports-nutrition practice; unlike protein, the exact fat and carb splits matter much less than total calories and protein.
 
+## Reading progress: scale and tape together (Shifu default)
+
+Bodyweight alone can't tell muscle from fat or water, so judge progress on weight **and** circumferences:
+
+- **Weight:** 2–3 morning weigh-ins a week; compare weekly averages, never single days.
+- **Tape, every 2 weeks:** waist (at the navel), hips/glutes (widest point), mid-thigh, relaxed upper arm; chest optional. Morning, before eating, relaxed, same spot, tape snug but not pressing.
+- **Photos, monthly:** front, side, back, same light and pose. They catch shape changes the tape misses.
+
+How to read them (judge over 2–4 weeks):
+
+| Pattern | Meaning | Action |
+|---|---|---|
+| Waist steady (±1 cm), glutes/thigh/arm up, weight steady or slowly up | Muscle gain, little fat: recomposition or a good lean bulk | Keep going |
+| Waist up more than 1–2 cm with weight rising faster than the target rate | Surplus too big | Cut ~100–200 kcal/day |
+| Waist down, other sites steady, weight down | Fat loss with muscle kept | Keep going (in a cut) |
+| Everything flat for 4+ weeks while training well | Not enough stimulus or food | Check progression first, then add ~100–200 kcal/day if the pupil wants growth |
+| Weight up 1–2 kg in the first weeks of creatine, waist unchanged | Water stored in muscle | Ignore it |
+
+The waist is the fat check; the other sites are the muscle check. Give the pupil this rule of thumb: for a muscle-building block, the ideal is a steady waist and everything else slowly growing.
+
 ## Bulking (Dec 2024 video and related)
 
 - Rate of gain: about **1–2% of bodyweight per month for beginners**, **0.5–1% for intermediate/advanced** ([bulking video](https://rosetta.to/u/jeffnippard/how-to-bulk-like-a-pro-using-science)).

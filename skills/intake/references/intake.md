@@ -94,6 +94,7 @@ Other training: boxing Sun · dance class Mon
 Avoid: none · Loves: hip thrusts · Hates: lunges
 Sleep 7–8 h · mostly sitting · style: short reasons
 Nutrition: tracks in MyFitnessPal · ~2,300 kcal · P 130 g · F 65 g · C 290 g (estimate, check in 2 weeks)
+Baseline (5 Nov): waist 69.5 · glutes 99.5 · thigh 56 · upper arm 27 cm · photos taken · re-measure every 2 weeks
 ```
 
 ## Nutrition in onboarding

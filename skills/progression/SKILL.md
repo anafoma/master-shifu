@@ -27,7 +27,8 @@ Decide the next targets from real data. Never guess logged numbers.
    2. Recovery: sleep, stress, food. Ask if the user is dieting.
    3. Change the rep range (e.g. 6–8 → 10–12) or swap to a similar-tier exercise (`exercise-swaps`).
    4. If several lifts stall at once, or fatigue signs show (weights feel brutally heavy, poor sleep, low motivation, joint aches): deload for a week. Calculated: 30–50% fewer sets (1–2 fewer per exercise), about 1–3 RPE easier; or instinctive: a flexible light week, swapping exercises that felt like a grind. If no deload for ~8 weeks and the user trains hard, suggest one proactively.
-5. **Report** briefly: per exercise, last performance → next target, with one-line reasoning. Lead with wins.
+5. **Body check (weekly reviews and block reviews):** if weigh-ins or tape measurements are available (from a connected tracker, or ask), compare the weekly average weight and the latest measurements with the previous ones using the table in `references/nutrition.md` ("Reading progress"). Every second week, remind the pupil to measure. Never judge progress on bodyweight alone.
+6. **Report** briefly: per exercise, last performance → next target, with one-line reasoning. Lead with wins.
 6. **Update Hevy on confirmation.** Change target weights/reps in the routine with `update_hevy_routine`, sending the full routine and changing only those values.
 
 ## Example
