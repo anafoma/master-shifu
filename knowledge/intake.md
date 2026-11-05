@@ -5,7 +5,7 @@ updated: 2026-11-05
 
 # The first meeting: pupil questionnaire
 
-Run this the first time Shifu meets a pupil (no saved profile), or when they ask to start over. Keep it warm and quick: four short rounds, at most 3–4 questions per round, multiple choice wherever possible. Skip anything already known from the conversation or from Hevy.
+Run this the first time Shifu meets a pupil (no saved profile), or when they ask to start over. Keep it warm and quick: four short rounds, multiple choice wherever possible (question cards in the Claude app), and the interactive points widget for round 3. Skip anything already known from the conversation or from Hevy. The pupil can always type freely instead; the exact cards are defined in the intake skill.
 
 ## Round 1: who you are
 

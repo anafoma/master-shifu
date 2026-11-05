@@ -1,0 +1,41 @@
+<h2 class="sr-only">Share 20 points across muscle groups to set training priorities, then send them to Master Shifu.</h2>
+<style>
+.ms-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;padding:6px 0;border-bottom:0.5px solid var(--border)}
+.ms-ctl{display:flex;align-items:center;gap:8px}
+.ms-ctl button{width:32px;height:32px;padding:0}
+.ms-val{min-width:24px;text-align:center;font-weight:500}
+.ms-bar{height:6px;border-radius:3px;background:var(--surface-1);margin-top:4px;overflow:hidden}
+.ms-fill{height:100%;background:var(--fill-accent);width:0}
+</style>
+<div style="padding:0.5rem 0">
+<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px">
+<span style="font-size:14px;color:var(--text-secondary)">Points left</span>
+<span id="ms-left" style="font-size:22px;font-weight:500">20</span>
+</div>
+<div class="ms-bar"><div class="ms-fill" id="ms-fill"></div></div>
+<div id="ms-rows" style="margin-top:12px"></div>
+<div style="margin-top:12px">
+<input id="ms-note" type="text" placeholder="Anything else? e.g. upper glutes, rear delts" style="width:100%">
+</div>
+<p id="ms-err" style="font-size:13px;color:var(--text-danger);margin:8px 0 0;min-height:18px"></p>
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px">
+<button id="ms-send">Send my points ↗</button>
+<button id="ms-reset">Reset</button>
+<button id="ms-skip">Let Shifu decide ↗</button>
+</div>
+</div>
+<script>
+const groups=["Chest","Back (width / lats)","Back (thickness / mid-back)","Shoulders","Arms (biceps + triceps)","Quads","Hamstrings","Glutes","Calves","Abs","Traps / neck"];
+const TOTAL=20;const pts=Object.fromEntries(groups.map(g=>[g,0]));let confirmOff=false;
+const rows=document.getElementById('ms-rows'),left=document.getElementById('ms-left'),fill=document.getElementById('ms-fill'),err=document.getElementById('ms-err');
+function used(){return Object.values(pts).reduce((a,b)=>a+b,0)}
+function render(){const u=used();left.textContent=String(TOTAL-u);fill.style.width=Math.min(100,Math.round(u/TOTAL*100))+'%';groups.forEach(g=>{document.getElementById('v-'+g).textContent=String(pts[g])});err.textContent='';confirmOff=false;document.getElementById('ms-send').textContent='Send my points ↗'}
+groups.forEach(g=>{const r=document.createElement('div');r.className='ms-row';r.innerHTML='<span style="font-size:14px">'+g+'</span><div class="ms-ctl"><button aria-label="Remove a point from '+g+'">−</button><span class="ms-val" id="v-'+g+'">0</span><button aria-label="Add a point to '+g+'">+</button></div>';const [minus,plus]=r.querySelectorAll('button');minus.onclick=()=>{if(pts[g]>0){pts[g]--;render()}};plus.onclick=()=>{if(used()<TOTAL){pts[g]++;render()}else{err.textContent='All 20 points are used. Take one from another muscle first.'}};rows.appendChild(r)});
+document.getElementById('ms-reset').onclick=()=>{groups.forEach(g=>pts[g]=0);render()};
+document.getElementById('ms-skip').onclick=()=>sendPrompt('Muscle points: I\'d like Shifu to decide (balanced split, my goals in mind).');
+document.getElementById('ms-send').onclick=()=>{const u=used();if(u===0){err.textContent='Give at least one muscle some points, or choose "Let Shifu decide".';return}
+if(u<TOTAL&&!confirmOff){err.textContent=(TOTAL-u)+' points still unused. Press send again to keep it as is, or keep adding.';confirmOff=true;document.getElementById('ms-send').textContent='Send anyway ↗';return}
+const list=groups.filter(g=>pts[g]>0).sort((a,b)=>pts[b]-pts[a]).map(g=>g+' '+pts[g]).join(', ');const zero=groups.filter(g=>pts[g]===0).join(', ');const note=document.getElementById('ms-note').value.trim();
+sendPrompt('My muscle points ('+u+' of 20): '+list+(zero?'. Zero points: '+zero:'')+(note?'. Note: '+note:'')+'.')};
+render();
+</script>

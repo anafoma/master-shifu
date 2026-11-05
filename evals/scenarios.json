@@ -221,6 +221,26 @@
         "No calorie surplus/deficit targets; focuses on technique, enough food and sleep",
         "Suggests involving a parent, coach or doctor for nutrition"
       ]
+    },
+    {
+      "id": "intake-ui",
+      "prompt": "Shifu, I'm a new pupil.",
+      "skill": "intake",
+      "expect": [
+        "Round 1 asked as one plain-text message (name, age, height, weight)",
+        "Round 2 and round 4 use question cards when the tool exists (max 4 questions, 2-4 options)",
+        "Round 3 shows the points widget unchanged; falls back to text if no visual tool"
+      ]
+    },
+    {
+      "id": "intake-typed-all",
+      "prompt": "I'm Sam, 29, 172cm, 68kg, want muscle mostly, 4 days, 60 min, glutes and shoulders are my priority, no injuries.",
+      "skill": "intake",
+      "expect": [
+        "Accepts the typed answers without re-asking them",
+        "Only asks what's missing (e.g. points split, experience, block length) or defaults them as (Shifu's pick)",
+        "Moves to the pupil card quickly"
+      ]
     }
   ]
 }
