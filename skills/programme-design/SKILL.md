@@ -33,9 +33,13 @@ Build a programme from a confirmed profile. If no profile exists, run `intake` f
    - Never include an exercise the user said hurts or wants to avoid.
 5. **Order within a session:** power work first (if any), then the top-priority muscle, heavy compounds, then isolation; failure sets last.
 6. **Set reps and effort** by goal (`references/goals-strength-athletic.md`):
-   - Hypertrophy: compounds 6–10 reps at 1–2 RIR; isolation 8–15 (abduction, calves, lateral raises 12–20); last isolation set to failure.
+   - Hypertrophy, effort by type (`references/muscle-ladder.md`): heavy compounds RPE 6–8 (rising across sets), secondary compounds RPE 8–10, isolation RPE 9–10.
+   - Rep mix across the week: ~60–80% of sets at 6–15 reps, 10–20% at 1–5, 10–20% at 15–30.
    - Strength lift: 3–6 reps at 1–3 RIR, more frequent practice.
-   - Rest: isolation 1.5–2 min, heavy compounds 2–3 min.
+   - Rest: isolation 1–2 min, light compounds 2–3 min, heavy compounds 3–5 min.
+   - Vary exercises for the same muscle across the week (e.g. back squat Monday, hack squat Thursday).
+   - Default split for 4 days is upper/lower, Nippard's favourite for size and strength.
+   - Plan a 4–8-week build then a deload week (calculated: −30–50% sets, ~1–3 RPE easier).
 7. **Progression rule** for every exercise: double progression within the rep range (see `progression`).
 8. **Present the plan** as one compact table per day (exercise, sets × reps, RIR, rest), plus a weekly sets-per-muscle summary. Explain the 2–3 most important choices in plain words.
 9. **Create in Hevy (on confirmation).** Follow `references/hevy.md`: create a folder named after the block (e.g. "Shifu Block 1, Nov 2026"), find template IDs with `search_hevy_exercises`, then create one routine per day with target sets, reps and starting weights from recent logs. Never overwrite the user's existing routines without asking; offer to archive them into a folder instead.

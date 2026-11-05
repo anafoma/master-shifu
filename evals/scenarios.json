@@ -17,7 +17,7 @@
       "skill": "programme-design",
       "expect": [
         "Upper/lower x2 split",
-        "Hamstrings get the most weekly sets (about 16-20) and come first on lower days",
+        "Hamstrings get priority placement but weekly sets stay around 12-15 (Muscle Ladder recovery cap), first on lower days",
         "Includes seated leg curl and an RDL or back extension",
         "Each day fits ~75 min (roughly 20 working sets or fewer)",
         "No muscle exceeds about 8 hard sets in one session",
@@ -158,6 +158,16 @@
       "expect": [
         "Points to the Feb 2026 podcast with Jeremy Ethier with a link",
         "Briefly states the takeaway without long quotes"
+      ]
+    },
+    {
+      "id": "deload-signs",
+      "prompt": "Everything feels heavy this week, I'm sleeping badly and I can't be bothered training.",
+      "skill": "progression",
+      "expect": [
+        "Recognises deload signs",
+        "Offers a calculated or instinctive deload with concrete changes (fewer sets, easier RPE)",
+        "Doesn't push harder training"
       ]
     }
   ]

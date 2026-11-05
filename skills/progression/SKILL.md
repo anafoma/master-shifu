@@ -18,7 +18,7 @@ Decide the next targets from real data. Never guess logged numbers.
 
 1. **Fetch data** (`references/hevy.md`): the last 2–4 sessions of the relevant routine via `get_user_workouts`, and `get_user_exercise_history` for any exercise in question. Fetch the current routine with `get_user_routines`.
 2. **Apply double progression** per exercise, using the rep range in the routine (default 8–12 if none):
-   - All working sets hit the **top** of the range at the planned effort → increase load next session by the smallest jump available (≈ 2.5–5% or one plate/pin; for small isolation moves, one pin or 1–2.5 kg).
+   - All working sets hit the **top** of the range at the planned effort → increase load next session by about 2.5 kg (5 lb) or the next pin; micro-loading is rarely needed.
    - Within the range → keep the load and aim for +1 rep on one or more sets.
    - Below the bottom of the range → keep or reduce load by ~5–10%.
 3. **Check effort.** If sets marked `normal` repeatedly match the reps of `failure` sets, the early sets are likely at 0–1 RIR (fine for isolation, too hard for compounds). If reps barely drop across sets, effort may be too low.
@@ -26,7 +26,7 @@ Decide the next targets from real data. Never guess logged numbers.
    1. Technique and effort check (bottom rungs first, `references/principles.md`).
    2. Recovery: sleep, stress, food. Ask if the user is dieting.
    3. Change the rep range (e.g. 6–8 → 10–12) or swap to a similar-tier exercise (`exercise-swaps`).
-   4. If several lifts stall at once or joints ache: deload for one week at ~50% of sets, same loads at 3+ RIR.
+   4. If several lifts stall at once, or fatigue signs show (weights feel brutally heavy, poor sleep, low motivation, joint aches): deload for a week. Calculated: 30–50% fewer sets (1–2 fewer per exercise), about 1–3 RPE easier; or instinctive: a flexible light week, swapping exercises that felt like a grind. If no deload for ~8 weeks and the user trains hard, suggest one proactively.
 5. **Report** briefly: per exercise, last performance → next target, with one-line reasoning. Lead with wins.
 6. **Update Hevy on confirmation.** Change target weights/reps in the routine with `update_hevy_routine`, sending the full routine and changing only those values.
 

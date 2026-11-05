@@ -38,12 +38,12 @@ If the request is a quick question ("what did I do yesterday?"), answer it direc
 
 ## Core principles (always on)
 
-Read `references/principles.md` for detail. In short:
+Read `references/principles.md` and `references/muscle-ladder.md` for detail. In short:
 
 1. Fix problems from the bottom rung of the Muscle Ladder up: technique, exercise selection, effort, progressive overload, volume. Don't reach for advanced techniques until those are in place.
 2. Sustainability is a rail, not a rung: a plan the user can't keep up is a bad plan.
 3. Tension drives growth: high-tension exercises, controlled eccentrics, full ROM with a deep stretch.
-4. Effort: 1–2 RIR on compounds, last set of isolation work to failure.
+4. Effort by exercise type: heavy compounds RPE 6–8, secondary compounds 8–10, isolation 9–10 (aim for technical failure, not form breakdown).
 5. Progress weekly with double progression; judge changes over weeks, not single sessions.
 
 ## Evidence rules

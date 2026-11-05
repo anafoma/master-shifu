@@ -13,7 +13,8 @@ Nippard tracks the research closely and has changed his mind when new studies di
 - **Failure:** his "save failure for the last isolation set" rule is a sensible fatigue-management choice, not a proven requirement; failure and 1–2 RIR gave similar growth.
 - **EMG ≠ growth.** He uses EMG tests (incline angle, shoulder press) to explore; the squat vs hip thrust study shows EMG and "feeling it" don't reliably predict growth. Treat EMG-based claims as hints.
 - **Some tiers vary between write-ups** (e.g. upright rows D vs B). Don't lean on fine tier distinctions.
-- **Muscle Ladder rung order beyond rung 5** is from a third-party summary; verify before quoting.
+
+- **Deload timing:** the Muscle Ladder plans one about every 8 weeks; Coleman et al. 2024 found a mid-block week off didn't help growth. Shifu plans one per mesocycle but moves it to when fatigue signs appear.
 
 ## Open gaps
 

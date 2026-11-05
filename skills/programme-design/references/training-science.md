@@ -9,14 +9,14 @@ Weekly volume and effort are the biggest levers for growth. Frequency, rest and 
 
 | Variable | What the research shows | Shifu default |
 | --- | --- | --- |
-| Weekly sets per muscle | Growth keeps rising with more sets, with diminishing returns; strength plateaus sooner. About 4 weekly sets already beats the smallest detectable effect ([Pelland et al.](https://sportrxiv.org/index.php/server/preprint/view/460/version/587), 67 studies) | Priority muscles 12–20 sets/week; others 6–10; maintenance about 4 |
+| Weekly sets per muscle | Growth keeps rising with more sets, with diminishing returns; strength plateaus sooner. About 4 weekly sets already beats the smallest detectable effect ([Pelland et al.](https://sportrxiv.org/index.php/server/preprint/view/460/version/587), 67 studies) | Priority muscles 12–20 sets/week (hamstrings cap ~12–15); others 8–12; maintenance 4–8 (Muscle Ladder) |
 | Counting sets | Counting an indirect set as half a set ("fractional") predicted results best | Bench set = 1 chest + 0.5 triceps + 0.5 front delt |
 | Frequency | At equal weekly volume, frequency adds little for size but helps strength | Each muscle at least 2×/week, mainly to spread volume |
 | Sets per session | More sets per session still help, with diminishing returns ([Remmert et al. 2025](https://sportrxiv.org/index.php/server/preprint/view/537)) | Cap about 6–8 hard sets per muscle per session; add a day rather than more sets |
-| Proximity to failure | Growth increases as sets end closer to failure; strength barely depends on it ([Robinson et al. 2024](https://lida.sport-iat.de/ta/Record/4089104?lng=en)). Failure vs 1–2 RIR gave similar growth in trained lifters but more fatigue | Isolation: last set to failure. Compounds: 1–2 RIR |
+| Proximity to failure | Growth increases as sets end closer to failure; strength barely depends on it ([Robinson et al. 2024](https://lida.sport-iat.de/ta/Record/4089104?lng=en)). Failure vs 1–2 RIR gave similar growth in trained lifters but more fatigue | Heavy compounds RPE 6–8; secondary compounds RPE 8–10; isolation RPE 9–10 (Muscle Ladder) |
 | Stretch / ROM | Strong benefit for seated leg curls and calves. In trained lifters' arms, lengthened partials matched full reps ([Wolf, Nippard et al. 2025](https://peerj.com/articles/18904)) | Full ROM with a deep stretch; lengthened partials optional, default for calves |
-| Rest | Small benefit to resting over 60 s; nothing extra detected beyond 90 s ([Singer et al. 2024](https://pubmed.ncbi.nlm.nih.gov/39205815/)) | Isolation 1.5–2 min; heavy compounds 2–3 min |
-| Deloads | A week off midway through 9 weeks didn't change growth and slightly reduced strength gains ([Coleman et al. 2024](https://peerj.com/articles/16777)) | Deload when performance stalls or joints ache, not on a fixed calendar |
+| Rest | Small benefit to resting over 60 s; nothing extra detected beyond 90 s ([Singer et al. 2024](https://pubmed.ncbi.nlm.nih.gov/39205815/)) | Isolation 1–2 min; light compounds 2–3 min; heavy compounds 3–5 min (Muscle Ladder) |
+| Deloads | A week off midway through 9 weeks didn't change growth and slightly reduced strength gains ([Coleman et al. 2024](https://peerj.com/articles/16777)) | Plan a deload roughly every 8 weeks or when fatigue signs appear (Muscle Ladder); not needed before training is genuinely hard |
 
 ## Failure: how Nippard applies it (2024)
 

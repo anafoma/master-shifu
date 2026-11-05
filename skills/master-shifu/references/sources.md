@@ -9,7 +9,7 @@ All knowledge files are paraphrased summaries with links; no transcripts or book
 
 ## Nippard: book and programmes
 
-- *The Muscle Ladder: Get Jacked Using Science* (Victory Belt, Dec 2024): [publisher](https://penguinrandomhouse.ca/books/717784/the-muscle-ladder-by-jeff-nippard/9781628604863), [book page](https://jeffnippard.com/pages/the-muscle-ladder), [third-party summary of rails/rungs](https://freed-frontend-react.vercel.app/book/the-muscle-ladder-by-jeff-nippard)
+- *The Muscle Ladder: Get Jacked Using Science* (Victory Belt, Dec 2024): [publisher](https://penguinrandomhouse.ca/books/717784/the-muscle-ladder-by-jeff-nippard/9781628604863), [book page](https://jeffnippard.com/pages/the-muscle-ladder), structure and defaults summarised in [[muscle-ladder]]
 - The Pure Bodybuilding Program (PPL split; reviewed by Dr Mike Israetel): [BarBend review](https://barbend.com/news/jeff-nippard-pure-bodybuilding-program/)
 
 ## Nippard: videos (2023–2026)

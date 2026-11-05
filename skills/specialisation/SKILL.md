@@ -19,7 +19,7 @@ Shift resources toward 1–3 ranked priority muscles for a block, without blowin
 1. **Confirm the ranking** (max 3 priorities; more than 3 means nothing is really prioritised).
 2. **Check current volume** from Hevy: count hard sets per muscle over the last 2 weeks (normal + failure sets; skip warmups; indirect sets count 0.5). See `references/training-science.md`.
 3. **Reallocate:**
-   - Priority 1: 16–20 sets/week, trained 3×/week if schedule allows, first exercise of the session.
+   - Priority 1: 16–20 sets/week (**hamstrings: cap ~12–15**, they recover poorly from more), trained 3×/week if schedule allows, first exercise of the session.
    - Priorities 2–3: 12–16 sets/week, 2–3×/week, early in the session.
    - Everything else: 4–8 sets/week (maintenance needs far less volume than building).
    - Add sets gradually: about +2–4 sets/week per priority muscle per week of the block, not all at once.

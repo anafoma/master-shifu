@@ -12,7 +12,7 @@ Master Shifu's defaults come from Jeff Nippard's published framework, checked ag
 Nippard's book *The Muscle Ladder: Get Jacked Using Science* (Victory Belt, Dec 2024) organises muscle building into 12 fundamentals: two "rails" and ten "rungs", ordered so the most important come first. [Publisher page](https://penguinrandomhouse.ca/books/717784/the-muscle-ladder-by-jeff-nippard/9781628604863), [book page](https://jeffnippard.com/pages/the-muscle-ladder).
 
 - **Rails (hold everything up):** sustainability and mindset. If a plan can't be kept up, nothing else matters. He has put it bluntly elsewhere: optimal goes out the window if it isn't sustainable ([BarBend](https://barbend.com/?p=206329)).
-- **First rungs, in order of importance:** 1 technique, 2 exercise selection, 3 effort, 4 progressive overload, 5 volume. The remaining rungs cover finer variables (frequency, rest, intensity techniques and similar). Source for the rung order: a third-party book summary ([link](https://freed-frontend-react.vercel.app/book/the-muscle-ladder-by-jeff-nippard)). Verify against the book before relying on rungs 6–10.
+- **Rungs, in order:** 1 technique, 2 exercise selection, 3 effort, 4 progressive overload, 5 volume, 6 splits and frequency, 7 load and rep ranges, 8 rest periods, 9 advanced techniques, 10 periodisation. Full defaults per rung: [[muscle-ladder]].
 - **How Shifu uses it:** fix problems from the bottom rung up. Don't tweak rest times or add drop sets for someone whose technique or effort is off. "The lower rungs aren't sexy but matter most."
 - The book also includes 20 programmes for 2 to 6 days a week and photo technique guides for 80+ exercises.
 
