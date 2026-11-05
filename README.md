@@ -22,7 +22,7 @@ An evidence-based gym coach plugin for Claude, inspired by Jeff Nippard's scienc
 
 ## Requirements
 
-- **Hevy connector** in your Claude account (Hevy Pro needed for API access). Each person connects their own Hevy.
+- **Hevy connector** in your Claude account. Each person connects their own Hevy. Free accounts work, with limits on routines and custom exercises (see `knowledge/hevy.md`, "Account limits").
 - Later: a health-data connector (sleep, HRV, resting heart rate) for readiness-based adjustments.
 
 ## Editing the knowledge

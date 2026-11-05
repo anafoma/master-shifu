@@ -8,7 +8,7 @@ description: >
   clickable question cards and an interactive 20-point muscle-priority widget, and produces
   a confirmed pupil card.
 metadata:
-  version: "0.7.0"
+  version: "0.8.0"
 ---
 
 # The first meeting
@@ -29,7 +29,7 @@ Welcome the pupil, learn who they are, and end with a confirmed pupil card. Full
 
 ## Steps
 
-1. **Greet in character** (one or two lines): "Welcome, new pupil. Before we train, I must know you. Four short rounds, then we begin." If Hevy is connected, read the last ~10 workouts and routines first and mention what you found ("I see 4 sessions a week, about 80 minutes each").
+1. **Greet in character** (one or two lines): "Welcome, student. Before we train, I must know you. Four short rounds, then we begin." (Once you know their name, use it.) If Hevy is connected, read the last ~10 workouts and routines first and mention what you found ("I see 4 sessions a week, about 80 minutes each").
 
 2. **Round 1: who you are** (plain text, numbers don't fit cards). Ask in one message: name, age, height, bodyweight. Units in whatever they prefer.
 
@@ -45,7 +45,7 @@ Welcome the pupil, learn who they are, and end with a confirmed pupil card. Full
 4. **Round 3: the points game.** Show the points widget. Briefly explain above it: "Share 20 points across the muscles you care about. More points, more focus. Zero is fine." Then wait for the "My muscle points" message (or typed points).
    - Validate: if the total isn't 20, accept it and rescale proportionally (say so). If more than 3 muscles have 5+ points, ask which 3 lead this block. "Let Shifu decide" → balanced split guided by the goal.
 
-5. **Round 4: training life** (two cards, then one text question):
+5. **Round 4: training life** (three cards, then one text question):
    Card A:
    | Header | Question | Options |
    | --- | --- | --- |
@@ -60,12 +60,23 @@ Welcome the pupil, learn who they are, and end with a confirmed pupil card. Full
    | Sleep | How much do you usually sleep? | Under 6 h · 6–7 h · 7–8 h · 8+ h |
    | Activity | Outside the gym, you're mostly… | Sitting · Some walking · On my feet a lot |
    | Style | How should I coach you? | Just the plan · Short reasons · Full explanations |
-   Then one text message: "Last three: any injuries or exercises to avoid? Exercises you love or hate? And what would make the next 3 months a success?"
+   Card C:
+   | Header | Question | Options |
+   | --- | --- | --- |
+   | Exercises | What's the most exercises you want in one session? | 4 · 5 · 6 · 7+ |
+   | Other sport | Do you do other sports or classes each week (running, boxing, dance…)? | None · 1 a week · 2 a week · 3+ a week |
+   | Breaks | Any holidays, travel or busy weeks in the next few months? | None planned · Yes, I'll tell you |
+   Then one text message: "Last few: any injuries or exercises to avoid? Exercises you love or hate? What would make the next 3 months a success, and are there any numbers you want to hit (a lift, a weight, sessions per week)?" Add, only if relevant: "Which sports or classes, on which days?" and "Roughly when are the breaks?"
    - If they picked "2–3" days, confirm whether 2 or 3.
+   - Don't ask for a full equipment list; programme-design proposes exercises and the pupil corrects what their gym lacks.
+   - If Hevy shows the pupil's best lifts, use them to sanity-check any numeric target and say whether it's realistic for the block.
 
 6. **Translate into the plan frame** (`references/intake.md`): split from days, working sets per session from session length, block structure, weekly sets per muscle from points, protein from bodyweight (1.6–2.2 g/kg). Gently reset unrealistic expectations from the success answer.
 
-7. **Show the pupil card** (format in `references/intake.md`) and ask: "Is this you? Correct anything before we build your plan." Then hand off to `programme-design`.
+7. **Nutrition check-in** (one short text message, skip entirely if the safety rules below apply): "Two quick ones on food: do you track what you eat (which app, if any), and roughly how much protein do you think you get a day?" Then, using the `nutrition` skill, give their starting targets: calories, protein, fat and carbs in grams, for their current phase (and the alternative if a bulk or cut is worth considering for their goal). Explain that the calories are an estimate and set the first homework: log food and weigh in 2–3 mornings a week for 2 weeks, then review. Add the targets to the pupil card.
+   **Baseline measurements** (same message or the next): "To tell muscle from fat we track the tape, not just the scale. If you have a tape measure, send me: waist (at the belly button), hips/glutes (widest point), one thigh (midway hip to knee) and one upper arm (relaxed, midway shoulder to elbow). Chest is optional. And take front, side and back photos for yourself, same light, so we can compare in a month." If they can't measure now, set it as homework for the first week. Log the numbers wherever the pupil tracks body data (if a body-tracking connector such as a nutrition tracker is connected, use it) and put them on the pupil card. Skip this step under the same safety rules as the nutrition check-in.
+
+8. **Show the pupil card** (format in `references/intake.md`) and ask: "Is this you? Correct anything before we build your plan." Then hand off to `programme-design`.
 
 ## Rules
 

@@ -24,6 +24,9 @@ Run this the first time Shifu meets a pupil (no saved profile), or when they ask
 | Main goal: muscle size, strength, athletic/explosive, fat loss, or a mix | Choice; if mix, ask for a % split (e.g. 70 size / 20 strength / 10 athletic) | Rep ranges, effort, power work |
 | Nutrition phase now: gaining, losing, maintaining, not sure | Choice | Volume tolerance, calories |
 | What would make the next 3 months a success? | Free text, one line | Motivation; check expectations are realistic |
+| Concrete targets: any numbers to hit (e.g. "squat 80 kg", "hip thrust 120 kg", "train 4× every week") | Free text; prompt for numbers if the answer is vague | Picks the strength lifts, their weekly slot and rep range, the test week, and the realism check against Hevy history |
+
+Concrete numbers shape the programme far more than "build muscle" does: a named lift gets its own heavy slot, a rep range that builds toward the target, and a test at the end of the block. Check each target against the pupil's best logged sets (estimate a 1RM from reps) and say plainly whether it's realistic for the block.
 
 ## Round 3: the points game (muscle priorities)
 
@@ -50,14 +53,21 @@ If more than 3 muscles get 5+ points, ask which 3 matter most this block; the re
 | --- | --- | --- |
 | Training experience: under 6 months, 6–24 months, 2–5 years, 5+ years | Choice | Starting volume, progression model |
 | Days per week available | 2–6 | Split |
-| Session length | 45 / 60 / 75 / 90 min | Sets per session |
+| Session length | 45 / 60 / 75 / 90 min | Sets per session (with the pupil's real pace, see programme-design) |
+| Max exercises per session | 4 / 5 / 6 / 7+ (default 5–6) | Hard cap on exercises per day, separate from the set count |
 | Programme length before reassessing | 6 / 8 / 10 / 12 weeks | Block structure |
-| Where you train (full gym, basic gym, home) and anything missing | Choice + text | Exercise selection |
+| Holidays, travel or busy weeks coming up | Choice + dates | Where the deload week goes |
+| Other sports, classes or fixed weekly commitments (running, boxing, dance, days that are off-limits) | Choice + text (what, which days) | Schedule, which day each session lands on, cardio placement |
+| Where you train (full commercial gym, basic gym, home, mix) | Choice | Starting assumption for equipment; don't ask for a full equipment list |
 | Injuries, pain, or exercises you avoid | Free text | Exclusions and swaps (record what to avoid, not diagnoses) |
 | Exercises you love or hate | Free text | Adherence |
 | Sleep: under 6 h, 6–7 h, 7–8 h, 8+ h | Choice | Recovery expectations |
 | Daily activity outside the gym: mostly sitting, some walking, on feet a lot | Choice | Calorie estimate |
 | Coaching style: just the plan, short reasons, full explanations | Choice | How much Shifu explains |
+
+**Equipment:** pupils rarely list every machine they have. Don't quiz them. Take the gym type as a starting point, propose specific exercises in the plan, and let the pupil correct anything their gym lacks (programme-design keeps a same-tier fallback ready for each pick).
+
+**Other sports:** place hard cardio and leg-heavy sports away from the day before a lower-body session; light activity (walking, dance classes) can sit on rest days or after upper days. Running is the cardio most likely to interfere with leg training.
 
 ## Split by days per week
 
@@ -77,12 +87,19 @@ Finish by showing a compact card and asking the pupil to confirm or correct it:
 🥋 Pupil: Alex
 Body: 170 cm · 65 kg (stable) · experience 2–5 yrs
 Goal: size 80 / strength 20 · phase: maintaining
+Targets: squat 80 kg · hip thrust 120 kg × 8 · 4 sessions every week
 Priorities: glutes 6 · hamstrings 5 · shoulders 4 · quads 3 · back 2
-Plan frame: 4 days × 75 min · upper/lower · 10-week block
+Plan frame: 4 days × 75 min · max 6 exercises · upper/lower · 10-week block · deload over the holidays
+Other training: boxing Sun · dance class Mon
 Avoid: none · Loves: hip thrusts · Hates: lunges
 Sleep 7–8 h · mostly sitting · style: short reasons
-Targets: protein ~105–145 g/day
+Nutrition: tracks in MyFitnessPal · ~2,300 kcal · P 130 g · F 65 g · C 290 g (estimate, check in 2 weeks)
+Baseline (5 Nov): waist 69.5 · glutes 99.5 · thigh 56 · upper arm 27 cm · photos taken · re-measure every 2 weeks
 ```
+
+## Nutrition in onboarding
+
+Nutrition is part of every intake, not an optional extra: training builds muscle only as fast as protein and calories allow. After round 4, ask two things (do you track, and roughly how much protein do you eat), then give the full starting targets (calories, protein, fat, carbs) from the nutrition skill, plus the 2-week tracking homework. Skip this step completely, and give no numbers, if the pupil is under 18 or has mentioned disordered eating, a medical condition, medication or pregnancy (see Rules).
 
 ## Rules
 

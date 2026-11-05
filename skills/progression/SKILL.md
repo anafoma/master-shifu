@@ -17,6 +17,7 @@ Decide the next targets from real data. Never guess logged numbers.
 ## Steps
 
 1. **Fetch data** (`references/hevy.md`): the last 2–4 sessions of the relevant routine via `get_user_workouts`, and `get_user_exercise_history` for any exercise in question. Fetch the current routine with `get_user_routines`.
+   **Evidence window (prevents double changes):** keep a per-exercise change log — current target, date last changed, reason (progression / swap / preference / calibration / deload / user's own change) — wherever the deployment keeps state (a memory file, a notes doc). Judge each exercise only on sessions logged **after** its last change; if there are none, propose nothing for it ("no new data"). A swap or preference change resets the clock and the next session is the new baseline. Before proposing, compare the routine in Hevy with the log: any unexplained difference is the user's own change, dated the routine's `updated_at`; record it, never undo it. After every approved change, update the log. If no log exists yet, create it from the current routines, dated today.
 2. **Apply double progression** per exercise, using the rep range in the routine (default 8–12 if none):
    - All working sets hit the **top** of the range at the planned effort → increase load next session by about 2.5 kg (5 lb) or the next pin; micro-loading is rarely needed.
    - Within the range → keep the load and aim for +1 rep on one or more sets.
@@ -27,7 +28,8 @@ Decide the next targets from real data. Never guess logged numbers.
    2. Recovery: sleep, stress, food. Ask if the user is dieting.
    3. Change the rep range (e.g. 6–8 → 10–12) or swap to a similar-tier exercise (`exercise-swaps`).
    4. If several lifts stall at once, or fatigue signs show (weights feel brutally heavy, poor sleep, low motivation, joint aches): deload for a week. Calculated: 30–50% fewer sets (1–2 fewer per exercise), about 1–3 RPE easier; or instinctive: a flexible light week, swapping exercises that felt like a grind. If no deload for ~8 weeks and the user trains hard, suggest one proactively.
-5. **Report** briefly: per exercise, last performance → next target, with one-line reasoning. Lead with wins.
+5. **Body check (weekly reviews and block reviews):** if weigh-ins or tape measurements are available (from a connected tracker, or ask), compare the weekly average weight and the latest measurements with the previous ones using the table in `references/nutrition.md` ("Reading progress"). Every second week, remind the pupil to measure. Never judge progress on bodyweight alone.
+6. **Report** briefly: per exercise, last performance → next target, with one-line reasoning. Lead with wins.
 6. **Update Hevy on confirmation.** Change target weights/reps in the routine with `update_hevy_routine`, sending the full routine and changing only those values.
 
 ## Example
