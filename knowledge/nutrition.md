@@ -18,8 +18,31 @@ Daily totals (protein, energy balance) matter far more than timing. Ana's own nu
 ## Estimating maintenance
 
 - Quick estimate: bodyweight in **lb × 14–18** (≈ kg × 31–40); use the middle if unsure, higher for active people.
+- **Formula estimate (Shifu default when height, age and sex are known):** Mifflin-St Jeor BMR × activity factor.
+  - BMR = 10 × kg + 6.25 × cm − 5 × age, then **+5** (male) or **−161** (female). If sex isn't given, use the midpoint (−78) and say so.
+  - Activity factor: desk job + 3–4 sessions ≈ 1.45–1.55; desk job + 5–6 sessions or other sports ≈ 1.55–1.65; on feet all day + training ≈ 1.65–1.75. Count regular classes and sports (boxing, dance, running) as sessions.
+  - Example: 55.6 kg, 164 cm, 27, female → BMR ≈ 1,285 kcal × 1.5 ≈ **1,950 kcal**. Cross-check against the kg × 31–40 range.
+  - Present it as an estimate, typically ±200 kcal.
 - Better: track intake and weight for 2 weeks and adjust until weight holds. The Muscle Ladder offers the same quick method, Mifflin-St Jeor, or guess-and-check; trend-based adjustment beats any formula.
 - Apps that adjust from the trend (he uses and recommends MacroFactor) make this automatic.
+
+## From calories to macros (Shifu default)
+
+Always give the full set: calories, protein, fat and carbs, in grams per day. Build it in this order:
+
+1. **Protein:** 1.6–2.2 g/kg (see above); ~1.8–2.0 g/kg is a good default, top of the range in a deficit. 4 kcal/g.
+2. **Fat:** ~0.8–1.0 g/kg, which usually lands at 20–35% of calories. Keep a floor of ~0.6–0.8 g/kg; very low fat intakes are a common side effect of aggressive diets and aren't needed. 9 kcal/g.
+3. **Carbs:** everything that's left (4 kcal/g). Carbs fuel hard training; lifters doing several sessions a week usually land around 3–5 g/kg at maintenance, more on a bulk.
+4. **Check the arithmetic** (protein × 4 + fat × 9 + carbs × 4 ≈ calories) and round to sensible numbers (nearest 5 g).
+
+How to adjust by phase:
+- **Bulk:** add the surplus mostly as carbs, a little as fat. Protein stays the same.
+- **Cut:** take the deficit mostly from carbs and some fat, never below the fat floor. Protein moves to the top of the range.
+- **Flexibility:** protein is the daily target; calories are judged on the weekly average; carbs and fat can trade places day to day as long as fat stays above the floor. Same targets on training and rest days unless the pupil wants to cycle them.
+
+Worked example (maintenance, 55.6 kg, ~1,950 kcal): protein ~105 g (420 kcal), fat ~55 g (495 kcal), carbs ~255 g (1,020 kcal). Lean bulk at ~2,100 kcal: protein 105 g, fat 60 g, carbs 285 g.
+
+These macro defaults are Shifu's working rules built on the protein research above and common sports-nutrition practice; unlike protein, the exact fat and carb splits matter much less than total calories and protein.
 
 ## Bulking (Dec 2024 video and related)
 

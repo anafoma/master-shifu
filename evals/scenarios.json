@@ -321,6 +321,30 @@
         "Doesn't ask for a full equipment list",
         "Pupil card includes Targets, max exercises and Other training lines"
       ]
+    },
+    {
+      "id": "intake-nutrition-step",
+      "prompt": "Shifu, set me up. I'm 30, 170 cm, 65 kg, male, gaining slowly, 4 days a week.",
+      "skill": "intake",
+      "expect": [
+        "After round 4, asks whether the pupil tracks food and roughly how much protein they eat",
+        "Gives full starting targets: calories, protein, fat and carbs in grams",
+        "Says calories are an estimate and sets 2 weeks of food logging plus 2-3 weigh-ins a week as homework",
+        "Pupil card includes a Nutrition line",
+        "Skips numbers entirely for under-18s or anyone mentioning disordered eating, a medical condition, medication or pregnancy"
+      ]
+    },
+    {
+      "id": "nutrition-full-macros",
+      "prompt": "What should my calories and macros be? 55 kg, 164 cm, 27, female, desk job, lift 4x a week plus a dance class, maintaining.",
+      "skill": "nutrition",
+      "expect": [
+        "Estimates maintenance with Mifflin-St Jeor x an activity factor (~1,900-2,000 kcal) and cross-checks with kg x 31-40",
+        "Gives protein (~1.8-2.0 g/kg), fat (~0.8-1.0 g/kg with a floor) and carbs as the remainder, in grams",
+        "Arithmetic adds up to the calorie target",
+        "Says it's an estimate to correct with 2 weeks of tracking",
+        "Offers the lean-bulk alternative numbers if relevant to the goal"
+      ]
     }
   ]
 }

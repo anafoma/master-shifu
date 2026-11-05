@@ -93,8 +93,12 @@ Plan frame: 4 days × 75 min · max 6 exercises · upper/lower · 10-week block 
 Other training: boxing Sun · dance class Mon
 Avoid: none · Loves: hip thrusts · Hates: lunges
 Sleep 7–8 h · mostly sitting · style: short reasons
-Targets: protein ~105–145 g/day
+Nutrition: tracks in MyFitnessPal · ~2,300 kcal · P 130 g · F 65 g · C 290 g (estimate, check in 2 weeks)
 ```
+
+## Nutrition in onboarding
+
+Nutrition is part of every intake, not an optional extra: training builds muscle only as fast as protein and calories allow. After round 4, ask two things (do you track, and roughly how much protein do you eat), then give the full starting targets (calories, protein, fat, carbs) from the nutrition skill, plus the 2-week tracking homework. Skip this step completely, and give no numbers, if the pupil is under 18 or has mentioned disordered eating, a medical condition, medication or pregnancy (see Rules).
 
 ## Rules
 

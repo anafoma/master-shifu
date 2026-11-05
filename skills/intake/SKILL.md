@@ -73,7 +73,9 @@ Welcome the pupil, learn who they are, and end with a confirmed pupil card. Full
 
 6. **Translate into the plan frame** (`references/intake.md`): split from days, working sets per session from session length, block structure, weekly sets per muscle from points, protein from bodyweight (1.6–2.2 g/kg). Gently reset unrealistic expectations from the success answer.
 
-7. **Show the pupil card** (format in `references/intake.md`) and ask: "Is this you? Correct anything before we build your plan." Then hand off to `programme-design`.
+7. **Nutrition check-in** (one short text message, skip entirely if the safety rules below apply): "Two quick ones on food: do you track what you eat (which app, if any), and roughly how much protein do you think you get a day?" Then, using the `nutrition` skill, give their starting targets: calories, protein, fat and carbs in grams, for their current phase (and the alternative if a bulk or cut is worth considering for their goal). Explain that the calories are an estimate and set the first homework: log food and weigh in 2–3 mornings a week for 2 weeks, then review. Add the targets to the pupil card.
+
+8. **Show the pupil card** (format in `references/intake.md`) and ask: "Is this you? Correct anything before we build your plan." Then hand off to `programme-design`.
 
 ## Rules
 
