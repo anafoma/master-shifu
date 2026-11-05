@@ -381,10 +381,10 @@
     {
       "id": "calc-macros",
       "skill": "nutrition",
-      "prompt": "I'm a 27-year-old woman, 55.6 kg, 164 cm, desk job, lift 4x a week plus boxing. What should my calories and macros be at maintenance?",
+      "prompt": "I'm a 34-year-old man, 78 kg, 180 cm, desk job, lift 4x a week plus a weekly run. What should my calories and macros be at maintenance?",
       "expect": [
         "Runs scripts/shifu_calc.py macros rather than computing by hand",
-        "BMR 1,285 kcal (Mifflin-St Jeor) and maintenance quoted from the tool output",
+        "BMR about 1,740 kcal (Mifflin-St Jeor) and maintenance quoted from the tool output",
         "Gives calories, protein, fat and carbs in grams, and they add up (P×4 + F×9 + C×4 ≈ calories)"
       ]
     },
@@ -401,10 +401,10 @@
     {
       "id": "calc-evidence-window",
       "skill": "progression",
-      "prompt": "My hip thrust target was changed to 105 kg for 6-10 today after I did 105 x 10 x 4. Should I go up next session?",
+      "prompt": "My deadlift target was changed to 120 kg for 5-8 today after I did 120 x 8 x 3. Should I go up next session?",
       "expect": [
         "Runs scripts/shifu_calc.py evidence with the change log",
-        "Says today's session doesn't count as new evidence (no new data) and keeps 105 kg",
+        "Says today's session doesn't count as new evidence (no new data) and keeps 120 kg",
         "Does not propose an increase"
       ]
     }

@@ -202,18 +202,18 @@ ACTIVITY = {"sedentary": 1.2, "light": 1.375, "moderate": 1.55, "active": 1.725,
 
 def cmd_macros(data: dict) -> dict:
     """Input:
-    {"sex": "female", "age": 27, "weight_kg": 55.6, "height_cm": 164,
+    {"sex": "female" | "male" | "unspecified", "age": 30, "weight_kg": 62, "height_cm": 168,
      "activity_factor": 1.5 | "moderate",
-     "calories": 1850,                 # optional override of the target
+     "calories": 2000,                 # optional override of the target
      "adjust_pct": -10,                # optional: % from maintenance (cut <0, bulk >0)
-     "protein_g_per_kg": 2.0 | "protein_g": 125,
+     "protein_g_per_kg": 2.0 | "protein_g": 120,
      "fat_g_per_kg": 0.9 | "fat_pct": 25,
      "fat_floor_g_per_kg": 0.6}
     Order: protein -> fat -> carbs from the remainder. Rounded to 5 g / 10 kcal.
     """
-    sex = _need(data, "sex", str).lower()
-    if sex not in ("female", "male"):
-        raise InputError("sex must be female or male")
+    sex = str(data.get("sex", "unspecified")).lower()
+    if sex not in ("female", "male", "unspecified"):
+        raise InputError("sex must be female, male or unspecified")
     age = _num(data, "age", lo=14, hi=100)
     kg = _num(data, "weight_kg", lo=30, hi=300)
     cm = _num(data, "height_cm", lo=120, hi=230)
@@ -223,7 +223,7 @@ def cmd_macros(data: dict) -> dict:
             raise InputError(f"activity_factor must be a number or one of {sorted(ACTIVITY)}")
         af = ACTIVITY[af]
     af = _num({"a": af}, "a", lo=1.1, hi=2.4)
-    bmr = 10 * kg + 6.25 * cm - 5 * age + (5 if sex == "male" else -161)
+    bmr = 10 * kg + 6.25 * cm - 5 * age + {"male": 5, "female": -161, "unspecified": -78}[sex]
     maintenance = bmr * af
     if "calories" in data:
         kcal = _num(data, "calories", lo=1000, hi=6000)

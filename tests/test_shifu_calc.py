@@ -20,15 +20,18 @@ def wk(start, end, exercises=None, sets=None, title="W"):
 
 
 class TestMacros(unittest.TestCase):
-    def test_ana_targets_reproduce(self):
-        # The targets agreed with Ana on 5 Nov 2026: 1,850 kcal, 125 P, 50 F, 225 C.
-        out = sc.run("macros", {"sex": "female", "age": 27, "weight_kg": 55.6, "height_cm": 164,
-                                "activity_factor": 1.5, "calories": 1850, "protein_g": 125,
+    def test_female_given_calories(self):
+        out = sc.run("macros", {"sex": "female", "age": 30, "weight_kg": 62, "height_cm": 168,
+                                "activity_factor": 1.5, "calories": 2000, "protein_g": 120,
                                 "fat_g_per_kg": 0.9})
-        self.assertEqual(out["bmr"], 1285)
-        self.assertEqual(out["maintenance_kcal"], 1930)
-        self.assertEqual((out["protein_g"], out["fat_g"], out["carbs_g"]), (125, 50, 225))
-        self.assertEqual(out["check_diff_kcal"], 0)
+        self.assertEqual(out["bmr"], 1359)  # 620 + 1050 - 150 - 161
+        self.assertEqual(out["maintenance_kcal"], 2040)
+        self.assertEqual((out["protein_g"], out["fat_g"], out["carbs_g"]), (120, 55, 255))
+        self.assertLessEqual(abs(out["check_diff_kcal"]), 20)
+
+    def test_unspecified_sex_uses_midpoint(self):
+        out = sc.run("macros", {"age": 30, "weight_kg": 62, "height_cm": 168})
+        self.assertEqual(out["bmr"], 1442)  # midpoint constant -78
 
     def test_male_formula_and_cut(self):
         out = sc.run("macros", {"sex": "male", "age": 30, "weight_kg": 80, "height_cm": 180,

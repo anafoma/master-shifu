@@ -24,7 +24,7 @@ Decide the next targets from real data. Never guess logged numbers.
    - Within the range → keep the load and aim for +1 rep on one or more sets.
    - Below the bottom of the range → keep or reduce load by ~5–10%.
 3. **Check effort.** If sets marked `normal` repeatedly match the reps of `failure` sets, the early sets are likely at 0–1 RIR (fine for isolation, too hard for compounds). If reps barely drop across sets, effort may be too low.
-For strength goals (e.g. squat 80 kg), track estimated 1RMs with `scripts/shifu_calc.py e1rm` (weight, reps, RIR) rather than guessing.
+For numeric strength targets from the pupil card, track estimated 1RMs with `scripts/shifu_calc.py e1rm` (weight, reps, RIR) rather than guessing.
 4. **Detect stalls:** same load and same or fewer reps for **3 consecutive sessions** on an exercise. Then work through, in order:
    1. Technique and effort check (bottom rungs first, `references/principles.md`).
    2. Recovery: sleep, stress, food. Ask if the user is dieting.

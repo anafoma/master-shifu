@@ -5,7 +5,7 @@ updated: 2026-11-05
 
 # Nutrition basics
 
-Daily totals (protein, energy balance) matter far more than timing. Ana's own nutrition material can extend this file.
+Daily totals (protein, energy balance) matter far more than timing.
 
 ## Protein
 
@@ -21,7 +21,7 @@ Daily totals (protein, energy balance) matter far more than timing. Ana's own nu
 - **Formula estimate (Shifu default when height, age and sex are known):** Mifflin-St Jeor BMR × activity factor.
   - BMR = 10 × kg + 6.25 × cm − 5 × age, then **+5** (male) or **−161** (female). If sex isn't given, use the midpoint (−78) and say so.
   - Activity factor: desk job + 3–4 sessions ≈ 1.45–1.55; desk job + 5–6 sessions or other sports ≈ 1.55–1.65; on feet all day + training ≈ 1.65–1.75. Count regular classes and sports (boxing, dance, running) as sessions.
-  - Example: 55.6 kg, 164 cm, 27, female → BMR ≈ 1,285 kcal × 1.5 ≈ **1,950 kcal**. Cross-check against the kg × 31–40 range.
+  - Example: 62 kg, 168 cm, 30, female → BMR ≈ 1,359 kcal × 1.5 ≈ **2,040 kcal**. Cross-check against the kg × 31–40 range.
   - Present it as an estimate, typically ±200 kcal.
 - Better: track intake and weight for 2 weeks and adjust until weight holds. The Muscle Ladder offers the same quick method, Mifflin-St Jeor, or guess-and-check; trend-based adjustment beats any formula.
 - Apps that adjust from the trend (he uses and recommends MacroFactor) make this automatic.
@@ -40,7 +40,7 @@ How to adjust by phase:
 - **Cut:** take the deficit mostly from carbs and some fat, never below the fat floor. Protein moves to the top of the range.
 - **Flexibility:** protein is the daily target; calories are judged on the weekly average; carbs and fat can trade places day to day as long as fat stays above the floor. Same targets on training and rest days unless the pupil wants to cycle them.
 
-Worked example (maintenance, 55.6 kg, ~1,950 kcal): protein ~105 g (420 kcal), fat ~55 g (495 kcal), carbs ~255 g (1,020 kcal). Lean bulk at ~2,100 kcal: protein 105 g, fat 60 g, carbs 285 g.
+Worked example (maintenance, 62 kg, ~2,040 kcal): protein ~110 g (440 kcal), fat ~55 g (495 kcal), carbs ~275 g (1,100 kcal). Lean bulk at ~2,180 kcal (+7%): protein 110 g, fat 55 g, carbs 310 g. (Numbers from `shifu_calc.py macros`.)
 
 These macro defaults are Shifu's working rules built on the protein research above and common sports-nutrition practice; unlike protein, the exact fat and carb splits matter much less than total calories and protein.
 

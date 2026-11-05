@@ -24,7 +24,7 @@ Run this the first time Shifu meets a pupil (no saved profile), or when they ask
 | Main goal: muscle size, strength, athletic/explosive, fat loss, or a mix | Choice; if mix, ask for a % split (e.g. 70 size / 20 strength / 10 athletic) | Rep ranges, effort, power work |
 | Nutrition phase now: gaining, losing, maintaining, not sure | Choice | Volume tolerance, calories |
 | What would make the next 3 months a success? | Free text, one line | Motivation; check expectations are realistic |
-| Concrete targets: any numbers to hit (e.g. "squat 80 kg", "hip thrust 120 kg", "train 4× every week") | Free text; prompt for numbers if the answer is vague | Picks the strength lifts, their weekly slot and rep range, the test week, and the realism check against Hevy history |
+| Concrete targets: any numbers to hit (e.g. "deadlift 140 kg", "first strict pull-up", "train 4× every week") | Free text; prompt for numbers if the answer is vague | Picks the strength lifts, their weekly slot and rep range, the test week, and the realism check against Hevy history |
 
 Concrete numbers shape the programme far more than "build muscle" does: a named lift gets its own heavy slot, a rep range that builds toward the target, and a test at the end of the block. Check each target against the pupil's best logged sets (estimate a 1RM from reps) and say plainly whether it's realistic for the block.
 
@@ -87,11 +87,11 @@ Finish by showing a compact card and asking the pupil to confirm or correct it:
 🥋 Pupil: Alex
 Body: 170 cm · 65 kg (stable) · experience 2–5 yrs
 Goal: size 80 / strength 20 · phase: maintaining
-Targets: squat 80 kg · hip thrust 120 kg × 8 · 4 sessions every week
-Priorities: glutes 6 · hamstrings 5 · shoulders 4 · quads 3 · back 2
+Targets: deadlift 140 kg · 10 strict pull-ups · 4 sessions every week
+Priorities: back 6 · shoulders 5 · chest 4 · arms 3 · quads 2
 Plan frame: 4 days × 75 min · max 6 exercises · upper/lower · 10-week block · deload over the holidays
-Other training: boxing Sun · dance class Mon
-Avoid: none · Loves: hip thrusts · Hates: lunges
+Other training: 5 km run Sat · climbing Wed
+Avoid: none · Loves: deadlifts · Hates: lunges
 Sleep 7–8 h · mostly sitting · style: short reasons
 Nutrition: tracks in MyFitnessPal · ~2,300 kcal · P 130 g · F 65 g · C 290 g (estimate, check in 2 weeks)
 Baseline (5 Nov): waist 69.5 · glutes 99.5 · thigh 56 · upper arm 27 cm · photos taken · re-measure every 2 weeks
