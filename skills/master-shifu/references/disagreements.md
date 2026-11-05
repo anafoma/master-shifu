@@ -20,5 +20,5 @@ Nippard tracks the research closely and has changed his mind when new studies di
 
 - No full Nippard tier list found for calves, abs or traps; those picks rest on studies and his shortlists.
 - How long a specialisation block should last before rotating priorities has little direct evidence. Default: 6–8 weeks.
-- Ana's own nutrition documents still to be added to [[nutrition]].
+- Further nutrition sources still to be added to [[nutrition]].
 - Health data (sleep, HRV, resting HR) not yet connected; readiness-based adjustments come later.

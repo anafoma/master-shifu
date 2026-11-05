@@ -18,6 +18,7 @@ An evidence-based gym coach plugin for Claude, inspired by Jeff Nippard's scienc
 | `agents/master-shifu.md` | Multi-step coaching agent (Claude Code) |
 | `knowledge/programme-patterns.md` | High-level methods from Nippard's paid programmes (no workouts reproduced) |
 | `knowledge/` | Single source of truth for the knowledge base (open as an Obsidian vault) |
+| `tools/shifu_calc.py` | Deterministic calculator (sets, pace/budget, macros, e1RM, evidence window), copied into each skill's `scripts/` by the sync script |
 | `evals/scenarios.json` | Test prompts with expected behaviour |
 
 ## Requirements
@@ -28,7 +29,7 @@ An evidence-based gym coach plugin for Claude, inspired by Jeff Nippard's scienc
 ## Editing the knowledge
 
 1. Open `knowledge/` in Obsidian and edit.
-2. Run `./scripts/sync-knowledge.sh` to copy the files into each skill's `references/`.
+2. Run `./scripts/sync-knowledge.sh` to copy the files into each skill's `references/` (and the calculator into `scripts/`).
 3. Rerun the evals, bump the version in `.claude-plugin/plugin.json`, then rebuild and reinstall.
 
 Keep knowledge files paraphrased with links. Don't paste transcripts or book text.
@@ -41,6 +42,14 @@ Keep knowledge files paraphrased with links. Don't paste transcripts or book tex
 ```
 
 Upload `dist/master-shifu.plugin` in Claude's plugin settings. In Claude Code, add this repo as a plugin marketplace or install the plugin from it.
+
+## Calculator tests
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+Edit only `tools/shifu_calc.py`, then run `./scripts/sync-knowledge.sh`; a test fails if a skill's copy is stale. CI runs both on every push.
 
 ## Running evals
 
