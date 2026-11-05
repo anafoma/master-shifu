@@ -7,7 +7,7 @@ description: >
   sets per muscle, exercise selection and order, rep ranges and effort targets, and can
   create the routines in Hevy.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
 ---
 
 # Programme design
@@ -22,9 +22,11 @@ Build a programme from a confirmed profile. If no profile exists, run `intake` f
    - If there are no points yet, ranked priorities: 12–20 sets for priorities, 8–12 for the rest.
    - Count indirect work as half a set (bench = 1 chest + 0.5 triceps + 0.5 front delt; presses also partly side delts).
    - Cap about 6–8 hard sets per muscle per session; add a day rather than more sets.
+   - **Count with the calculator, not by hand:** `scripts/shifu_calc.py sets` with each exercise's sets, `primary` and `secondary` muscles, and the Shifu targets. It returns direct, Nippard and fractional counts, status and gap per muscle, and flags any muscle over 8 direct sets in one session.
    - **Do the budget arithmetic up front.** Weekly set budget = days × sets per session (step 3). Add up the targets for every muscle. If the targets exceed the budget (they usually do: 11 muscle groups × 10 sets is 110+ sets a week), say so plainly before presenting and explain that the points decide who gets growth volume and who gets maintenance. A gap on a low-point muscle is then a trade-off, not a surprise.
 3. **Fit the session budget, using the pupil's real pace.**
    - **Pace from logs:** from the last ~10 Hevy sessions, minutes per set = session duration ÷ sets logged (skip sessions marked "forgot to stop"). Most people land at 4–4.5 min per set once warm-ups, walking between machines and set-up are included. No history → assume 4 min per set. Never assume 2.5–3 min.
+   - Run `scripts/shifu_calc.py budget` with the raw Hevy workouts, the session length, the exercise cap and each day's planned sets/exercises: it returns the median pace (skipping implausible sessions), how many sets fit, and each day's expected minutes and cap check.
    - Working sets per session = session length ÷ pace, and say the expected duration per day when presenting.
    - **Exercise cap:** respect the pupil's max exercises per session (from intake; default 5–6). It's separate from the set count: 18 sets over 5 exercises feels fine, 7 exercises feels endless. When a day goes over, cut the exercise that serves the lowest-point muscle and move a set to a remaining exercise that covers it partly (e.g. drop a lat pulldown, add a set to a row).
    - If the total doesn't fit, cut sets from non-priority muscles first.
@@ -52,7 +54,7 @@ Build a programme from a confirmed profile. If no profile exists, run `intake` f
    - **Fit the block to the calendar.** Put the deload on a holiday, travel or busy week the pupil mentioned. If the pupil set concrete strength targets, end the block with a test week after the deload.
    - **Fit sessions around other sports and commitments** (from intake): no hard cardio or leg-heavy sport the day before a lower-body session; keep lower days ~72 h apart.
 7. **Progression rule** for every exercise: double progression within the rep range (see `progression`).
-8. **Present the plan** as one compact table per day (exercise, tier, sets × reps, RIR, rest, starting weight), with exercise count, set count and expected duration per day. Then a **weekly sets table** with these columns: muscle · points · Shifu target · Nippard range (10–20 for intermediates; hamstrings ~10–15) · **direct sets** · **with indirect (half sets)** · status. Say which counting method each column uses: Nippard counts arm work as direct isolation sets only, while fractional counting (indirect = half) predicted growth best in the research. Never round a gap away. Explain the 2–3 most important choices in plain words.
+8. **Present the plan** as one compact table per day (exercise, tier, sets × reps, RIR, rest, starting weight), with exercise count, set count and expected duration per day. Then a **weekly sets table** with these columns: muscle · points · Shifu target · Nippard range (10–20 for intermediates; hamstrings ~10–15) · **direct sets** · **with indirect (half sets)** · status. Say which counting method each column uses: Nippard counts arm work as direct isolation sets only, while fractional counting (indirect = half) predicted growth best in the research. Never round a gap away. Fill the table from a fresh `sets` run on the final plan, after every revision. Explain the 2–3 most important choices in plain words.
 9. **Recount after every revision.** Each time the pupil changes something (an exercise swapped, a set added, a day trimmed), redo the tier column, the per-day counts and duration, and the weekly sets table before presenting again. Don't carry numbers over from the last draft.
 10. **Write to Hevy (on confirmation).** Follow `references/hevy.md` ("Writing routines well" and "Account limits"): check `is_pro`, find template IDs with `search_hevy_exercises`, and write one routine per day with rest timers, rep ranges, set types, warm-up sets, starting weights from logs and short this-week notes. On a free account with existing routines, offer to overwrite them (show the mapping, get a yes) rather than creating new ones. Never overwrite without asking.
 

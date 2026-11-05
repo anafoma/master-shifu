@@ -22,3 +22,10 @@ for skill in "${!MAP[@]}"; do
   done
 done
 echo "Synced knowledge into ${#MAP[@]} skills."
+
+# Deterministic calculator (tools/shifu_calc.py) for every skill that does maths.
+for skill in programme-design specialisation progression nutrition master-shifu; do
+  mkdir -p "skills/$skill/scripts"
+  cp tools/shifu_calc.py "skills/$skill/scripts/shifu_calc.py"
+done
+echo "Synced shifu_calc.py into 5 skills."

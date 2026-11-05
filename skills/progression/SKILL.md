@@ -18,11 +18,13 @@ Decide the next targets from real data. Never guess logged numbers.
 
 1. **Fetch data** (`references/hevy.md`): the last 2–4 sessions of the relevant routine via `get_user_workouts`, and `get_user_exercise_history` for any exercise in question. Fetch the current routine with `get_user_routines`.
    **Evidence window (prevents double changes):** keep a per-exercise change log — current target, date last changed, reason (progression / swap / preference / calibration / deload / user's own change) — wherever the deployment keeps state (a memory file, a notes doc). Judge each exercise only on sessions logged **after** its last change; if there are none, propose nothing for it ("no new data"). A swap or preference change resets the clock and the next session is the new baseline. Before proposing, compare the routine in Hevy with the log: any unexplained difference is the user's own change, dated the routine's `updated_at`; record it, never undo it. After every approved change, update the log. If no log exists yet, create it from the current routines, dated today.
+   **Compute it, don't eyeball it:** pass the change log (exercise → changed date, weight, rep range) and the fetched workouts to `scripts/shifu_calc.py evidence`. It counts only sessions after each change, applies the double-progression rules below, and flags stalls. Use its verdicts; override one only with a stated reason (e.g. the user reported pain or poor form).
 2. **Apply double progression** per exercise, using the rep range in the routine (default 8–12 if none):
    - All working sets hit the **top** of the range at the planned effort → increase load next session by about 2.5 kg (5 lb) or the next pin; micro-loading is rarely needed.
    - Within the range → keep the load and aim for +1 rep on one or more sets.
    - Below the bottom of the range → keep or reduce load by ~5–10%.
 3. **Check effort.** If sets marked `normal` repeatedly match the reps of `failure` sets, the early sets are likely at 0–1 RIR (fine for isolation, too hard for compounds). If reps barely drop across sets, effort may be too low.
+For strength goals (e.g. squat 80 kg), track estimated 1RMs with `scripts/shifu_calc.py e1rm` (weight, reps, RIR) rather than guessing.
 4. **Detect stalls:** same load and same or fewer reps for **3 consecutive sessions** on an exercise. Then work through, in order:
    1. Technique and effort check (bottom rungs first, `references/principles.md`).
    2. Recovery: sleep, stress, food. Ask if the user is dieting.

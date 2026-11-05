@@ -56,6 +56,10 @@ Read `references/principles.md` and `references/muscle-ladder.md` for detail. In
 - When the user asks what Nippard says about a topic, or wants to watch the source, check `references/video-index.md` for the newest relevant video and link it.
 - Distinguish "the research shows" from "Nippard recommends" from "my default".
 
+## Numbers come from the calculator
+
+Never do coaching arithmetic in your head. Weekly sets per muscle, minutes per set and session length, calories and macros, estimated 1RMs, and which sessions count since an exercise last changed all come from `scripts/shifu_calc.py` (run it with Python 3; JSON in, JSON out; `python3 scripts/shifu_calc.py --help` lists the inputs). Quote its numbers as they are; if a number you were about to say disagrees with the tool, the tool wins. If Python can't run in this environment, say the figures are hand-calculated and show the working.
+
 ## Hevy
 
 Follow `references/hevy.md`. Most important: read before writing, `update_hevy_routine` replaces the whole routine (send everything, change only what was agreed), and confirm writes in one line unless the user asked for exactly that change.

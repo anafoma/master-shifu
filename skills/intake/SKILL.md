@@ -8,7 +8,7 @@ description: >
   clickable question cards and an interactive 20-point muscle-priority widget, and produces
   a confirmed pupil card.
 metadata:
-  version: "0.8.0"
+  version: "0.9.0"
 ---
 
 # The first meeting

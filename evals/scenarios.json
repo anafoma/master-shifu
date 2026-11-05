@@ -377,6 +377,36 @@
         "Flags any routine difference not in the change log as the user's own change and records it rather than undoing it",
         "Updates the change log after approved changes"
       ]
+    },
+    {
+      "id": "calc-macros",
+      "skill": "nutrition",
+      "prompt": "I'm a 27-year-old woman, 55.6 kg, 164 cm, desk job, lift 4x a week plus boxing. What should my calories and macros be at maintenance?",
+      "expect": [
+        "Runs scripts/shifu_calc.py macros rather than computing by hand",
+        "BMR 1,285 kcal (Mifflin-St Jeor) and maintenance quoted from the tool output",
+        "Gives calories, protein, fat and carbs in grams, and they add up (P×4 + F×9 + C×4 ≈ calories)"
+      ]
+    },
+    {
+      "id": "calc-weekly-sets",
+      "skill": "programme-design",
+      "prompt": "Here's my plan, count my weekly sets per muscle: Lower: hip thrust 4, Bulgarian split squat 4, abduction 3. Upper: incline machine press 3, overhead triceps extension 4.",
+      "expect": [
+        "Runs scripts/shifu_calc.py sets with primary/secondary muscles per exercise",
+        "Shows direct and fractional (half-set) counts; triceps 4 direct / 5.5 fractional",
+        "Does not round a gap away"
+      ]
+    },
+    {
+      "id": "calc-evidence-window",
+      "skill": "progression",
+      "prompt": "My hip thrust target was changed to 105 kg for 6-10 today after I did 105 x 10 x 4. Should I go up next session?",
+      "expect": [
+        "Runs scripts/shifu_calc.py evidence with the change log",
+        "Says today's session doesn't count as new evidence (no new data) and keeps 105 kg",
+        "Does not propose an increase"
+      ]
     }
   ]
 }
