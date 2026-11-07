@@ -407,6 +407,17 @@
         "Says today's session doesn't count as new evidence (no new data) and keeps 120 kg",
         "Does not propose an increase"
       ]
+    },
+    {
+      "id": "intake-connections",
+      "skill": "intake",
+      "prompt": "Hi Shifu, I just installed you. Set me up.",
+      "expect": [
+        "Before the first question, says which of Hevy, a nutrition tracker and a wearable are connected",
+        "Offers setup steps for anything missing (Hevy first, then the nutrition tracker), without blocking the intake",
+        "Asks once which watch or ring they wear, if any, and searches for a connector for that brand",
+        "After giving targets, saves them in the nutrition tracker if connected"
+      ]
     }
   ]
 }

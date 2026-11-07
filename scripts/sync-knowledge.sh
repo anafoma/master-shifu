@@ -5,13 +5,13 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 declare -A MAP=(
-  [master-shifu]="principles disagreements sources hevy video-index muscle-ladder"
-  [intake]="intake hevy"
+  [master-shifu]="principles disagreements sources hevy video-index muscle-ladder connections"
+  [intake]="intake hevy connections"
   [programme-design]="principles exercise-tiers training-science goals-strength-athletic intake hevy workout-templates muscle-ladder programme-patterns"
   [specialisation]="training-science exercise-tiers workout-templates muscle-ladder programme-patterns"
   [progression]="training-science principles hevy muscle-ladder nutrition"
   [exercise-swaps]="exercise-tiers principles hevy"
-  [nutrition]="nutrition training-science"
+  [nutrition]="nutrition training-science connections"
 )
 
 for skill in "${!MAP[@]}"; do
