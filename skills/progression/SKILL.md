@@ -23,8 +23,8 @@ Decide the next targets from real data. Never guess logged numbers.
    - All working sets hit the **top** of the range at the planned effort → increase load next session by about 2.5 kg (5 lb) or the next pin; micro-loading is rarely needed.
    - Within the range → keep the load and aim for +1 rep on one or more sets.
    - Below the bottom of the range → keep or reduce load by ~5–10%.
-3. **Check effort.** If sets marked `normal` repeatedly match the reps of `failure` sets, the early sets are likely at 0–1 RIR (fine for isolation, too hard for compounds). If reps barely drop across sets, effort may be too low.
-For numeric strength targets from the pupil card, track estimated 1RMs with `scripts/shifu_calc.py e1rm` (weight, reps, RIR) rather than guessing.
+3. **Check effort.** If working sets have a logged `rpe`, use it: top of the range at RPE 7 or below means the load is too light (bigger jump, about two increments); RPE 9.5–10 on `normal` sets of heavy compounds means too close to failure (hold the load, aim for the planned RPE). Without RPE, use set types: If sets marked `normal` repeatedly match the reps of `failure` sets, the early sets are likely at 0–1 RIR (fine for isolation, too hard for compounds). If reps barely drop across sets, effort may be too low.
+For numeric strength targets from the pupil card, track estimated 1RMs with `scripts/shifu_calc.py e1rm` (weight, reps, reps left, from the logged RPE where available) rather than guessing.
 4. **Detect stalls:** same load and same or fewer reps for **3 consecutive sessions** on an exercise. Then work through, in order:
    1. Technique and effort check (bottom rungs first, `references/principles.md`).
    2. Recovery: sleep, stress, food. Ask if the user is dieting.

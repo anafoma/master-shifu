@@ -6,7 +6,7 @@ description: >
   I bulk", supplements such as creatine, or how diet should change their training. It gives
   evidence-based targets and adjusts training for the nutrition phase.
 metadata:
-  version: "0.10.0"
+  version: "0.11.0"
 ---
 
 # Nutrition

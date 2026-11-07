@@ -142,8 +142,8 @@ def hevy_session(date, title, sets):
             "exercises": [{"title": title, "sets": sets}]}
 
 
-def s(w, r, t="normal"):
-    return {"weight_kg": w, "reps": r, "type": t}
+def s(w, r, t="normal", rpe=None):
+    return {"weight_kg": w, "reps": r, "type": t, "rpe": rpe}
 
 
 class TestEvidence(unittest.TestCase):
@@ -162,6 +162,17 @@ class TestEvidence(unittest.TestCase):
                           [s(60, 8, "warmup")] + [s(105, 10)] * 4)]
         r = sc.run("evidence", {"log": self.LOG, "workouts": w})["exercises"][0]
         self.assertEqual(r["action"], "increase")
+        self.assertEqual(r["next_weight_kg"], 107.5)
+
+    def test_easy_top_of_range_doubles_jump(self):
+        w = [hevy_session("2026-11-07", "Hip Thrust (Barbell)", [s(105, 10, rpe=7)] * 4)]
+        r = sc.run("evidence", {"log": self.LOG, "workouts": w})["exercises"][0]
+        self.assertEqual(r["next_weight_kg"], 110)
+        self.assertEqual(r["rpe_avg"], 7)
+
+    def test_hard_top_of_range_single_jump(self):
+        w = [hevy_session("2026-11-07", "Hip Thrust (Barbell)", [s(105, 10, rpe=9)] * 4)]
+        r = sc.run("evidence", {"log": self.LOG, "workouts": w})["exercises"][0]
         self.assertEqual(r["next_weight_kg"], 107.5)
 
     def test_within_range(self):
