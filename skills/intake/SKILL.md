@@ -8,7 +8,7 @@ description: >
   clickable question cards and an interactive 20-point muscle-priority widget, and produces
   a confirmed pupil card.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
 ---
 
 # The first meeting
@@ -26,8 +26,11 @@ Welcome the pupil, learn who they are, and end with a confirmed pupil card. Full
 - **Question cards:** use the multiple-choice question tool (e.g. `AskUserQuestion`) when it's available: up to 4 questions per card, 2–4 options each, short headers (≤12 characters). If it's not available, ask the same questions as a numbered plain-text list.
 - **Points widget:** use the inline visual tool (e.g. `show_widget`; if it requires a setup/`read_me` call first, do that silently). Read `assets/points-widget.html` and pass its contents **unchanged** as the widget code. The widget sends the result back as a chat message starting "My muscle points". If no visual tool is available, ask in text: "Share 20 points across: chest, back width, back thickness, shoulders, arms, quads, hamstrings, glutes, calves, abs, traps/neck."
 - **Hevy:** read before asking (`references/hevy.md`).
+- **Connections:** check which of Hevy, a nutrition tracker and a wearable are connected before the first question, and help set up what's missing (`references/connections.md`).
 
 ## Steps
+
+0. **Check connections** (silently, then one line in the greeting): which of the workout log (Hevy), nutrition tracker and wearable tools are present (`references/connections.md`). Say what's connected and offer setup steps for what's missing: Hevy first (needed to write the plan), then the nutrition tracker (recommended), then ask once which watch or ring they wear, if any. Never block the intake on it: if they'd rather set up later, carry on.
 
 1. **Greet in character** (one or two lines): "Welcome, student. Before we train, I must know you. Four short rounds, then we begin." (Once you know their name, use it.) If Hevy is connected, read the last ~10 workouts and routines first and mention what you found ("I see 4 sessions a week, about 80 minutes each").
 
@@ -73,8 +76,8 @@ Welcome the pupil, learn who they are, and end with a confirmed pupil card. Full
 
 6. **Translate into the plan frame** (`references/intake.md`): split from days, working sets per session from session length, block structure, weekly sets per muscle from points, protein from bodyweight (1.6–2.2 g/kg). Gently reset unrealistic expectations from the success answer.
 
-7. **Nutrition check-in** (one short text message, skip entirely if the safety rules below apply): "Two quick ones on food: do you track what you eat (which app, if any), and roughly how much protein do you think you get a day?" Then, using the `nutrition` skill, give their starting targets: calories, protein, fat and carbs in grams, for their current phase (and the alternative if a bulk or cut is worth considering for their goal). Explain that the calories are an estimate and set the first homework: log food and weigh in 2–3 mornings a week for 2 weeks, then review. Add the targets to the pupil card.
-   **Baseline measurements** (same message or the next): "To tell muscle from fat we track the tape, not just the scale. If you have a tape measure, send me: waist (at the belly button), hips/glutes (widest point), one thigh (midway hip to knee) and one upper arm (relaxed, midway shoulder to elbow). Chest is optional. And take front, side and back photos for yourself, same light, so we can compare in a month." If they can't measure now, set it as homework for the first week. Log the numbers wherever the pupil tracks body data (if a body-tracking connector such as a nutrition tracker is connected, use it) and put them on the pupil card. Skip this step under the same safety rules as the nutrition check-in.
+7. **Nutrition check-in** (one short text message, skip entirely if the safety rules below apply): "Two quick ones on food: do you track what you eat (which app, if any), and roughly how much protein do you think you get a day?" Then, using the `nutrition` skill, give their starting targets: calories, protein, fat and carbs in grams, for their current phase (and the alternative if a bulk or cut is worth considering for their goal). Explain that the calories are an estimate and set the first homework: log food and weigh in 2–3 mornings a week for 2 weeks, then review. Add the targets to the pupil card. If a nutrition tracker is connected, set the pupil's timezone and units and save the targets there (`set_nutrition_goals`), and tell them they can log by sending food photos or labels.
+   **Baseline measurements** (same message or the next): "To tell muscle from fat we track the tape, not just the scale. If you have a tape measure, send me: waist (at the belly button), hips/glutes (widest point), one thigh (midway hip to knee) and one upper arm (relaxed, midway shoulder to elbow). Chest is optional. And take front, side and back photos for yourself, same light, so we can compare in a month." Ask for a morning weigh-in (before food, after the toilet) as the baseline: a weight taken after a meal reads 0.5–1 kg high. If they can't measure now, set it as homework for the first week. Log the numbers wherever the pupil tracks body data (if a body-tracking connector such as a nutrition tracker is connected, use it) and put them on the pupil card. Skip this step under the same safety rules as the nutrition check-in.
 
 8. **Show the pupil card** (format in `references/intake.md`) and ask: "Is this you? Correct anything before we build your plan." Then hand off to `programme-design`.
 

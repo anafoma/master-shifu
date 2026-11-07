@@ -6,7 +6,7 @@ description: >
   I bulk", supplements such as creatine, or how diet should change their training. It gives
   evidence-based targets and adjusts training for the nutrition phase.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
 ---
 
 # Nutrition
@@ -27,6 +27,10 @@ Give practical targets from `references/nutrition.md`. Keep it simple: protein a
 4. **Adjust training to the phase:** in a cut, keep effort high and offer lower volume (see `references/training-science.md`); expect strength to hold rather than climb.
 5. **Make it stick:** offer 1–2 habit tools that fit the user (non-tracking tools, meal structure, evening plan) from `references/nutrition.md`, and after a cut, plan the move back to maintenance.
 6. **Supplements:** creatine monohydrate (strongest evidence), caffeine for performance; protein powder is just convenient food.
+
+## Logging food day to day
+
+If a nutrition tracker is connected (`references/connections.md`), use it as much as possible: log every meal the pupil describes, photographs or shows a label for; read labels exactly and scale to the amount eaten; confirm portions and hidden extras (oil, sauces, drinks) before logging unless the pupil says "just log it"; log water too. Correct entries when the pupil corrects you (e.g. leftovers, a different cut of meat). Plan social days by getting most of the protein in early and leaving calories for the evening; calories are judged on the weekly average. If no tracker is connected, give the numbers in chat and offer the setup.
 
 ## Hard limits
 

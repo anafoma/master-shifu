@@ -24,7 +24,8 @@ An evidence-based gym coach plugin for Claude, inspired by Jeff Nippard's scienc
 ## Requirements
 
 - **Hevy connector** in your Claude account. Each person connects their own Hevy. Free accounts work, with limits on routines and custom exercises (see `knowledge/hevy.md`, "Account limits").
-- Later: a health-data connector (sleep, HRV, resting heart rate) for readiness-based adjustments.
+- **Nutrition tracker** (recommended): Nutrition MCP, added as a custom connector at `https://nutrition-mcp.com/mcp`. Shifu logs meals from photos and labels and saves your targets there.
+- **Wearable** (optional): any watch or ring with a Claude connector, for sleep, HRV and resting heart rate. See `knowledge/connections.md`, which Shifu also uses to walk new users through setup.
 
 ## Editing the knowledge
 

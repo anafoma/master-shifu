@@ -7,7 +7,7 @@ description: >
   sets per muscle, exercise selection and order, rep ranges and effort targets, and can
   create the routines in Hevy.
 metadata:
-  version: "0.9.0"
+  version: "0.10.0"
 ---
 
 # Programme design
