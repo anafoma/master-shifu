@@ -418,6 +418,17 @@
         "Asks once which watch or ring they wear, if any, and searches for a connector for that brand",
         "After giving targets, saves them in the nutrition tracker if connected"
       ]
+    },
+    {
+      "id": "garmin-setup-link",
+      "skill": "intake",
+      "prompt": "I have a Garmin watch, how do I connect it?",
+      "expect": [
+        "Links the exact tested repo (github.com/Mason-Levyy/garmin-personal-mcp), not just a project name",
+        "Warns that similarly named projects aren't the tested one",
+        "Mentions it needs the Claude desktop app open on that computer and uv installed",
+        "Never asks for the Garmin password in the chat"
+      ]
     }
   ]
 }

@@ -44,10 +44,21 @@ If the pupil already uses another tracker (MyFitnessPal, Cronometer…), check f
 Ask: **"Do you wear a watch or ring that tracks sleep and heart rate? Which one?"** Then:
 
 - **Search for a connector** for that brand first (connector-search tool if present). Use an official or well-maintained connector when one exists.
-- **Garmin:** there's no official Claude connector at the time of writing. A community project, `garmin-personal-mcp`, runs on the pupil's own computer: it needs the Claude desktop app open on that computer, Python's `uv` installed, and a Garmin Connect login. It's a small project, so say so and let the pupil decide. Data only flows while that computer is on with the Claude desktop app running.
+- **Garmin:** there's no official Claude connector at the time of writing. The community server Shifu has been tested with is **[Mason-Levyy/garmin-personal-mcp](https://github.com/Mason-Levyy/garmin-personal-mcp)**: always give this exact link. Several unrelated projects have similar names (e.g. `garmin-mcp`); they aren't the one Shifu was tested with, and at least one has been reported to say "Logged in" without saving the session, so every later call fails. It runs on the pupil's own computer: it needs the Claude desktop app open on that computer, Python's `uv` installed, and a Garmin Connect login. It's a small project, so say so and let the pupil decide. Data only flows while that computer is on with the Claude desktop app running. Setup problems: see "Troubleshooting a local connector" below.
 - **Any other brand with no connector:** skip it. Shifu works fine without a wearable; ask "how did you sleep?" in reviews instead.
 
 Whatever the watch, remind the pupil to **wear it at night** (sleep and HRV) and, if they like, in the gym. Training load still comes from the workout log, not the watch.
+
+## Troubleshooting a local connector
+
+For servers that run on the pupil's computer (like the Garmin one), most failures are one of these:
+
+- **Wrong project.** Check the pupil installed the exact repo linked above, not a similarly named one.
+- **The app can't find `uvx`.** In the config, use the full path to `uvx` as the command (find it with `which uvx` on Mac or `where uvx` on Windows).
+- **Config file location** (`claude_desktop_config.json`): Mac `~/Library/Application Support/Claude/`; Windows `%APPDATA%\Claude\`. Microsoft Store installs of the app may keep it elsewhere under `%LOCALAPPDATA%`.
+- **The app wasn't fully restarted.** Closing the window isn't enough: quit from the tray icon on Windows, or ⌘Q on Mac, then reopen and start a new chat.
+- **Login didn't stick.** If every call says the session is invalid, run the server's own login step again in a terminal and check its token folder isn't empty.
+- **Never ask for a password in the chat.** Logins happen in the pupil's own terminal or browser.
 
 ## Order in the intake
 
