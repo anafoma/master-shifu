@@ -22,7 +22,7 @@ import statistics
 import sys
 from datetime import datetime, timezone
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 
 class InputError(ValueError):
@@ -288,6 +288,7 @@ def cmd_evidence(data: dict) -> dict:
                                        "rep_range": [6, 10], "sets": 4, "reason": "calibration"}},
      "workouts": [Hevy workouts with start_time and exercises[].title / sets[]],
      "increment_kg": 2.5}
+    Logged sets may carry "rpe"; top of range with every working set at RPE <= 7 doubles the jump.
     For each logged exercise: only sessions strictly after `changed` count. With none,
     the verdict is "no new data". Otherwise double progression is applied to the most
     recent session's working sets at (or above) the target weight.
@@ -317,7 +318,7 @@ def cmd_evidence(data: dict) -> dict:
                 if work:
                     sessions.append({"date": day.isoformat(), "sets": [
                         {"weight_kg": s.get("weight_kg"), "reps": s["reps"],
-                         "type": s.get("type", "normal")} for s in work]})
+                         "type": s.get("type", "normal"), "rpe": s.get("rpe")} for s in work]})
         sessions.sort(key=lambda s: s["date"])
         row = {"exercise": name, "changed": changed, "sessions_in_window": len(sessions)}
         if not sessions:
@@ -329,14 +330,21 @@ def cmd_evidence(data: dict) -> dict:
         weights = [s["weight_kg"] for s in sets if s["weight_kg"] is not None]
         used = max(weights) if weights else None
         reps = [s["reps"] for s in sets]
+        rpes = [s["rpe"] for s in sets if isinstance(s.get("rpe"), (int, float))]
         row["last_session"] = last
+        if rpes:
+            row["rpe_avg"] = _r(sum(rpes) / len(rpes))
         if target is not None and used is not None and used < target:
             row.update(verdict="below planned weight", action="hold",
                        next_weight_kg=target, note=f"used {used} kg vs planned {target} kg")
         elif all(r >= hi for r in reps):
             base = used if used is not None else target
+            jump = inc
+            if rpes and max(rpes) <= 7:
+                jump = 2 * inc
+                row["note"] = f"top of range at RPE {max(rpes):g} or easier: load too light, double jump"
             row.update(verdict="top of range on every set", action="increase",
-                       next_weight_kg=None if base is None else base + inc)
+                       next_weight_kg=None if base is None else base + jump)
         elif min(reps) < lo:
             base = used if used is not None else target
             row.update(verdict="below bottom of range", action="hold or reduce 5-10%",

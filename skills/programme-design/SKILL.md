@@ -7,7 +7,7 @@ description: >
   sets per muscle, exercise selection and order, rep ranges and effort targets, and can
   create the routines in Hevy.
 metadata:
-  version: "0.10.0"
+  version: "0.11.0"
 ---
 
 # Programme design
@@ -44,7 +44,7 @@ Build a programme from a confirmed profile. If no profile exists, run `intake` f
 6. **Set reps and effort** by goal (`references/goals-strength-athletic.md`):
    - Hypertrophy, effort by type (`references/muscle-ladder.md`): heavy compounds RPE 6–8 (rising across sets), secondary compounds RPE 8–10, isolation RPE 9–10.
    - Rep mix across the week: ~60–80% of sets at 6–15 reps, 10–20% at 1–5, 10–20% at 15–30.
-   - Strength lift: 3–6 reps at 1–3 RIR, more frequent practice.
+   - Strength lift: 3–6 reps at RPE 7–9 (1–3 reps left), more frequent practice.
    - Rest: isolation 1–2 min, light compounds 2–3 min, heavy compounds 3–5 min.
    - Vary exercises for the same muscle across the week (e.g. back squat Monday, hack squat Thursday).
    - Default split for 4 days is upper/lower, Nippard's favourite for size and strength.
@@ -54,7 +54,7 @@ Build a programme from a confirmed profile. If no profile exists, run `intake` f
    - **Fit the block to the calendar.** Put the deload on a holiday, travel or busy week the pupil mentioned. If the pupil set concrete strength targets, end the block with a test week after the deload.
    - **Fit sessions around other sports and commitments** (from intake): no hard cardio or leg-heavy sport the day before a lower-body session; keep lower days ~72 h apart.
 7. **Progression rule** for every exercise: double progression within the rep range (see `progression`).
-8. **Present the plan** as one compact table per day (exercise, tier, sets × reps, RIR, rest, starting weight), with exercise count, set count and expected duration per day. Then a **weekly sets table** with these columns: muscle · points · Shifu target · Nippard range (10–20 for intermediates; hamstrings ~10–15) · **direct sets** · **with indirect (half sets)** · status. Say which counting method each column uses: Nippard counts arm work as direct isolation sets only, while fractional counting (indirect = half) predicted growth best in the research. Never round a gap away. Fill the table from a fresh `sets` run on the final plan, after every revision. Explain the 2–3 most important choices in plain words.
+8. **Present the plan** as one compact table per day (exercise, tier, sets × reps, RPE target, rest, starting weight), with exercise count, set count and expected duration per day. Then a **weekly sets table** with these columns: muscle · points · Shifu target · Nippard range (10–20 for intermediates; hamstrings ~10–15) · **direct sets** · **with indirect (half sets)** · status. Say which counting method each column uses: Nippard counts arm work as direct isolation sets only, while fractional counting (indirect = half) predicted growth best in the research. Never round a gap away. Fill the table from a fresh `sets` run on the final plan, after every revision. Explain the 2–3 most important choices in plain words.
 9. **Recount after every revision.** Each time the pupil changes something (an exercise swapped, a set added, a day trimmed), redo the tier column, the per-day counts and duration, and the weekly sets table before presenting again. Don't carry numbers over from the last draft.
 10. **Write to Hevy (on confirmation).** Follow `references/hevy.md` ("Writing routines well" and "Account limits"): check `is_pro`, find template IDs with `search_hevy_exercises`, and write one routine per day with rest timers, rep ranges, set types, warm-up sets, starting weights from logs and short this-week notes. On a free account with existing routines, offer to overwrite them (show the mapping, get a yes) rather than creating new ones. Never overwrite without asking.
 
@@ -71,4 +71,4 @@ Offer the lower-volume option (`references/training-science.md`, 100-day experim
 - Cues match `references/exercise-tiers.md`.
 - The weekly sets table shows direct and indirect counts against both targets, recounted for this version of the plan.
 - The deload sits on a holiday or busy week if the pupil named one; sessions don't clash with their other sports.
-- Starting weights come from real logs where available; otherwise say "pick a weight you can do for the top of the range at ~2 RIR".
+- Starting weights come from real logs where available; otherwise say "pick a weight you can do for the top of the range with ~2 reps left (RPE 8)".
